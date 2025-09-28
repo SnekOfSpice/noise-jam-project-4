@@ -45,6 +45,8 @@ func _ready():
 	
 	%BodyLabelAngel.text = ""
 	%BodyLabelHuman.text = ""
+	%PixelateRect.visible = true
+	%PSXRect.visible = true
 	
 	find_child("CreditsLayer").visible = false
 	find_child("BlackLayer").visible = true

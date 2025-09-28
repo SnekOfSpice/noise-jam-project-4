@@ -32,11 +32,11 @@ func _ready() -> void:
 
 func on_read_new_page(page:int):
 	var roughness := 1.0 - float(page) / Parser.get_page_count()
-	roughness = clamp(roughness, 0.5, 0.8)
+	roughness = clamp(roughness, 0.05, 0.8)
 	if page == 0:
 		roughness = 0
-	set_pixelate(1.0 + 2 * roughness)
-	set_psx_pixel_resoltuion(360 - 120 * roughness)
+	set_pixelate(1.0 + roughness * 1.3)
+	set_psx_pixel_resoltuion(512 - 220 * roughness)
 
 func set_psx_pixel_resoltuion(resolution:float):
 	%PSXRect.get_material().set_shader_parameter("pixel_resolution", resolution)

@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://bqw08o3b22fdc" path="res://game/stages/line_reader_custom.gd" id="3_pms35"]
 [ext_resource type="Script" uid="uid://brouc1vl1o5us" path="res://game/stages/objects.gd" id="3_x2eff"]
 [ext_resource type="Shader" uid="uid://dws3q0loflbkg" path="res://game/stages/darknoise.gdshader" id="6_o4gqq"]
+[ext_resource type="Theme" uid="uid://cnoh52kg1pq8c" path="res://game/visuals/theme/proj4_theme.tres" id="7_3xf2c"]
 [ext_resource type="PackedScene" uid="uid://qkegdwc8ux5o" path="res://game/stages/black_fade.tscn" id="8_50byo"]
 [ext_resource type="Script" uid="uid://c2vvnjn4tl6a7" path="res://game/stages/game_camera.gd" id="9_lbjue"]
 [ext_resource type="PackedScene" uid="uid://cg68f27bymn00" path="res://game/stages/rolling_credits.tscn" id="11_o4gqq"]
@@ -26,8 +27,8 @@ chatlog_name_display = ""
 chatlog_color = Color(1, 1, 1, 0)
 chatlog_outline_color = Color(1, 1, 1, 1)
 chatlog_outline_size = 0
-body_label_prefix = "[i]"
-body_label_suffix = "[/i]"
+body_label_prefix = "[font=res://game/visuals/fonts/AlteHaasGroteskRegular.ttf]"
+body_label_suffix = "[/font]"
 metadata/_custom_type_script = "uid://dycysb8joq17f"
 
 [sub_resource type="Resource" id="Resource_o4gqq"]
@@ -42,17 +43,15 @@ chatlog_name_display = ""
 chatlog_color = Color(1, 1, 1, 0)
 chatlog_outline_color = Color(1, 1, 1, 1)
 chatlog_outline_size = 0
-body_label_prefix = ""
-body_label_suffix = ""
+body_label_prefix = "[font=res://game/visuals/fonts/Altone Trial-Regular.ttf]"
+body_label_suffix = "[/font]"
 metadata/_custom_type_script = "uid://dycysb8joq17f"
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3xf2c"]
 shader = ExtResource("6_o4gqq")
-shader_parameter/radius = 1.0
-shader_parameter/speed = 1.0
-shader_parameter/effect_color = Color(0.251, 0, 0, 1)
-
-[sub_resource type="Theme" id="Theme_8g0u3"]
+shader_parameter/radius = -0.61
+shader_parameter/speed = 8.443
+shader_parameter/effect_color = Color(1, 0.443684, 0.375095, 0.447059)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o4gqq"]
 bg_color = Color(0.0509804, 0.0509804, 0.0509804, 0.756863)
@@ -65,7 +64,7 @@ shader_parameter/pixel_size = 1.0
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_j1uqk"]
 shader = ExtResource("12_aqeli")
-shader_parameter/pixel_resolution = 360.0
+shader_parameter/pixel_resolution = 512.0
 shader_parameter/color_steps = 24
 shader_parameter/noise_strength = 0.0
 shader_parameter/enable_dither = true
@@ -91,6 +90,7 @@ script = ExtResource("1_a36me")
 unique_name_in_owner = true
 script = ExtResource("3_pms35")
 auto_pause_duration = 0.4
+show_text_during_choices = false
 allow_mid_line_advance = null
 actor_config = Dictionary[String, ExtResource("3_aqeli")]({
 "angel": SubResource("Resource_8g0u3"),
@@ -151,7 +151,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-theme = SubResource("Theme_8g0u3")
+theme = ExtResource("7_3xf2c")
 
 [node name="Control" type="Control" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot"]
 layout_mode = 1
@@ -204,7 +204,7 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 
-[node name="DefaultTextContainerAngel" type="PanelContainer" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/VNUI/TextContainers"]
+[node name="DefaultTextContainerAngel" type="MarginContainer" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/VNUI/TextContainers"]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
@@ -222,8 +222,9 @@ text = "OMGGG HAAAAIII
 [b][i]both awawa[/i][/b]"
 fit_content = true
 scroll_active = false
+horizontal_alignment = 2
 
-[node name="DefaultTextContainerHuman" type="PanelContainer" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/VNUI/TextContainers"]
+[node name="DefaultTextContainerHuman" type="MarginContainer" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/VNUI/TextContainers"]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
@@ -263,6 +264,7 @@ theme_type_variation = &"GameControlsButton"
 text = "History"
 
 [node name="MenuButton" type="Button" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/VNUI/ControlsContainer"]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 focus_mode = 0
@@ -270,6 +272,7 @@ theme_type_variation = &"GameControlsButton"
 text = "Menu"
 
 [node name="ChoicePanel" type="PanelContainer" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot"]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -286,8 +289,9 @@ size_flags_vertical = 4
 [node name="ChoiceLabel" type="Label" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/ChoicePanel/VBoxContainer"]
 layout_mode = 2
 
-[node name="ChoiceList" type="VBoxContainer" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/ChoicePanel/VBoxContainer"]
+[node name="ChoiceList" type="HBoxContainer" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/ChoicePanel/VBoxContainer"]
 layout_mode = 2
+theme_override_constants/separation = 46
 
 [node name="CGTopContainer" type="Control" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot"]
 visible = false
@@ -341,6 +345,7 @@ color = Color(0, 0, 0, 1)
 script = ExtResource("13_qfsh6")
 
 [node name="RollingCredits" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot" instance=ExtResource("11_o4gqq")]
+visible = false
 layout_mode = 1
 
 [node name="BlackLayer" type="CanvasLayer" parent="LineReader/Camera2D"]
@@ -364,6 +369,7 @@ grow_vertical = 2
 
 [node name="PixelateRect" type="ColorRect" parent="LineReader/Camera2D/PixelateLayer"]
 unique_name_in_owner = true
+visible = false
 material = SubResource("ShaderMaterial_aqeli")
 anchors_preset = 15
 anchor_right = 1.0
@@ -376,6 +382,7 @@ mouse_filter = 2
 
 [node name="PSXRect" type="ColorRect" parent="LineReader/Camera2D/PSXLayer"]
 unique_name_in_owner = true
+visible = false
 material = SubResource("ShaderMaterial_j1uqk")
 anchors_preset = 15
 anchor_right = 1.0

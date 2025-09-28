@@ -1,0 +1,70 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://cnoh52kg1pq8c"]
+
+[ext_resource type="FontFile" uid="uid://5vneyo76wenq" path="res://game/visuals/fonts/Mont-HeavyDEMO.otf" id="1_vkm7q"]
+
+[sub_resource type="FontVariation" id="FontVariation_wfn2y"]
+base_font = ExtResource("1_vkm7q")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yok8d"]
+bg_color = Color(0.72, 0.55488, 0.4896, 0)
+border_width_left = 4
+border_width_top = 2
+border_width_right = 3
+border_width_bottom = 2
+border_color = Color(0.97, 0.86912, 0.8439, 0.701961)
+border_blend = true
+expand_margin_left = 8.0
+expand_margin_top = 5.0
+expand_margin_right = 8.0
+expand_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vkm7q"]
+bg_color = Color(0.3, 0.2312, 0.204, 0.439216)
+border_width_left = 4
+border_width_top = 2
+border_width_right = 3
+border_width_bottom = 2
+border_color = Color(0.565841, 0.399576, 1, 0.909804)
+border_blend = true
+expand_margin_left = 8.0
+expand_margin_top = 5.0
+expand_margin_right = 8.0
+expand_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qoxvy"]
+bg_color = Color(0.721569, 0.556863, 0.494118, 0.309804)
+border_width_left = 4
+border_width_top = 2
+border_width_right = 3
+border_width_bottom = 2
+border_color = Color(0.967455, 0.198395, 0, 0.909804)
+border_blend = true
+expand_margin_left = 8.0
+expand_margin_top = 5.0
+expand_margin_right = 8.0
+expand_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wfn2y"]
+bg_color = Color(0.721569, 0.556863, 0.494118, 0.658824)
+border_width_left = 4
+border_width_top = 2
+border_width_right = 3
+border_width_bottom = 2
+border_color = Color(0.967455, 0.198395, 0, 0.909804)
+border_blend = true
+expand_margin_left = 8.0
+expand_margin_top = 5.0
+expand_margin_right = 8.0
+expand_margin_bottom = 4.0
+
+[resource]
+Button/fonts/font = SubResource("FontVariation_wfn2y")
+Button/styles/focus = SubResource("StyleBoxFlat_yok8d")
+Button/styles/hover = SubResource("StyleBoxFlat_vkm7q")
+Button/styles/normal = SubResource("StyleBoxFlat_qoxvy")
+Button/styles/pressed = SubResource("StyleBoxFlat_wfn2y")
+MarginContainer/constants/margin_bottom = 20
+MarginContainer/constants/margin_left = 10
+MarginContainer/constants/margin_right = 10
+MarginContainer/constants/margin_top = 20
+RichTextLabel/font_sizes/normal_font_size = 22
