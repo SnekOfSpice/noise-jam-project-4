@@ -1,0 +1,451 @@
+{
+	"pages": {
+		"callable_autoloads": [],
+		"custom_method_defaults": {
+
+		},
+		"custom_method_dropdown_limiters": {
+			"black_fade": {
+				"new_background": [],
+				"new_bgm": []
+			},
+			"call_from_string": {
+				"text": []
+			},
+			"callv_custom": {
+				"method_name": []
+			},
+			"get_actor_config_property": {
+				"actor_key": [],
+				"config_property": []
+			},
+			"on_actor_name_about_to_change": {
+				"actor_name": []
+			},
+			"play_chapter_intro": {
+				"bgm": [],
+				"bottom_text": [],
+				"new_background": [],
+				"pov_name": []
+			},
+			"play_sfx": {
+				"_name": []
+			},
+			"set_actor_color": {
+				"actor_key": []
+			},
+			"set_actor_config_property": {
+				"actor_key": [],
+				"config_property": []
+			},
+			"set_actor_config_property_color": {
+				"actor_key": [],
+				"config_property": []
+			},
+			"set_actor_name": {
+				"actor_key": [],
+				"actor_name": []
+			},
+			"set_background": {
+				"_name": []
+			},
+			"set_bgm": {
+				"_name": []
+			},
+			"set_character_name": {
+				"character": [],
+				"new_name": []
+			},
+			"set_emotion": {
+				"actor_name": [],
+				"emotion_name": []
+			},
+			"set_name_prefix": {
+				"prefix": []
+			},
+			"set_name_suffix": {
+				"suffix": []
+			},
+			"set_object_visible": {
+				"object_name": []
+			},
+			"set_x_position": {
+				"character_name": []
+			},
+			"show_cg": {
+				"_name": []
+			},
+			"show_character": {
+				"character_name": []
+			},
+			"update_name_label": {
+				"actor_name": []
+			}
+		},
+		"default_locale": "en_US",
+		"dropdown_dialog_arguments": [],
+		"dropdown_title_for_dialog_syntax": "character",
+		"dropdown_titles": [
+			"character"
+		],
+		"dropdowns": {
+			"character": [
+				"angel",
+				"human"
+			]
+		},
+		"empty_strings_for_l10n": false,
+		"evaluator_modified_times": {
+			"res://game/stages/line_reader_custom.gd": 1757065440
+		},
+		"facts": {
+
+		},
+		"file_config": {
+			"evaluator_paths": [
+				"res://game/stages/line_reader_custom.gd"
+			]
+		},
+		"full_custom_method_defaults": {
+			"add_custom_blocker": {
+
+			},
+			"add_text_display_delay": {
+
+			},
+			"advance": {
+
+			},
+			"apply_preferences": {
+
+			},
+			"apply_ui_visibilities": {
+
+			},
+			"black_fade": {
+
+			},
+			"call_from_string": {
+				"call_mode": 0,
+				"call_position": -1
+			},
+			"callv_custom": {
+
+			},
+			"choice_pressed_virtual": {
+
+			},
+			"clear_custom_blockers": {
+
+			},
+			"continue_after_interrupt": {
+				"read_line": 0,
+				"read_page": -1
+			},
+			"control_camera": {
+
+			},
+			"deserialize": {
+
+			},
+			"enable_keep_past_lines": {
+				"keep_text": false,
+				"new_label": null,
+				"new_name_style": null
+			},
+			"finish_waiting_for_instruction": {
+
+			},
+			"get_actor_config_property": {
+				"default": null
+			},
+			"get_actor_names_in_line": {
+				"empty_if_not_text": true
+			},
+			"get_body_label_text_draw_pos": {
+				"on_label": null
+			},
+			"get_preferences": {
+
+			},
+			"get_subaddress": {
+
+			},
+			"get_subaddress_arr": {
+				"fill_with_zero": true
+			},
+			"get_ui_visibilities": {
+
+			},
+			"hide_all_characters": {
+
+			},
+			"hide_cg": {
+				"fade_out": 2.0
+			},
+			"interrupt": {
+				"hide_controls": true
+			},
+			"is_advance_blocked": {
+				"include_auto_continue": true,
+				"include_warnings": false
+			},
+			"move_camera_to": {
+
+			},
+			"on_actor_name_about_to_change": {
+
+			},
+			"play_chapter_intro": {
+				"bgm": "One <3"
+			},
+			"play_sfx": {
+
+			},
+			"remove_custom_blocker": {
+
+			},
+			"request_advance": {
+
+			},
+			"request_go_back": {
+
+			},
+			"roll_credits": {
+
+			},
+			"serialize": {
+
+			},
+			"set_actor_color": {
+
+			},
+			"set_actor_config_property": {
+
+			},
+			"set_actor_config_property_color": {
+
+			},
+			"set_actor_name": {
+
+			},
+			"set_background": {
+				"fade_time": 0.0
+			},
+			"set_bgm": {
+
+			},
+			"set_body_label": {
+				"keep_text": true
+			},
+			"set_character_name": {
+
+			},
+			"set_chatlog_enabled": {
+
+			},
+			"set_custom_text_speed_override": {
+
+			},
+			"set_emotion": {
+
+			},
+			"set_name_controls": {
+				"container": null,
+				"keep_text": true
+			},
+			"set_name_prefix": {
+				"update": true
+			},
+			"set_name_suffix": {
+				"update": true
+			},
+			"set_object_visible": {
+
+			},
+			"set_ruby_enabled": {
+
+			},
+			"set_text_display_delay": {
+
+			},
+			"set_x_position": {
+
+			},
+			"shake_camera": {
+
+			},
+			"show_cg": {
+
+			},
+			"show_character": {
+
+			},
+			"splatter_blood": {
+
+			},
+			"sway_camera": {
+
+			},
+			"update_body_label": {
+
+			},
+			"update_name_label": {
+
+			},
+			"use_ui": {
+
+			},
+			"zoom_to": {
+
+			}
+		},
+		"head_defaults": [],
+		"id_counter": -9223372036854775725,
+		"import_modified_times_by_path": {
+
+		},
+		"ingestion_actor_declaration": "a: angel\nh: human",
+		"locales_to_export": [
+			"af_ZA",
+			"sq_AL",
+			"ar_SA",
+			"hy_AM",
+			"az_AZ",
+			"eu_ES",
+			"be_BY",
+			"bn_IN",
+			"bs_BA",
+			"bg_BG",
+			"ca_ES",
+			"zh_CN",
+			"zh_TW",
+			"hr_HR",
+			"cs_CZ",
+			"da_DK",
+			"nl_NL",
+			"en_US",
+			"et_EE",
+			"fo_FO",
+			"fi_FI",
+			"fr_FR",
+			"gl_ES",
+			"ka_GE",
+			"de_DE",
+			"el_GR",
+			"gu_IN",
+			"he_IL",
+			"hi_IN",
+			"hu_HU",
+			"is_IS",
+			"id_ID",
+			"it_IT",
+			"ja_JP",
+			"kn_IN",
+			"kk_KZ",
+			"kok_IN",
+			"ko_KR",
+			"lv_LV",
+			"lt_LT",
+			"mk_MK",
+			"ms_MY",
+			"ml_IN",
+			"mt_MT",
+			"mr_IN",
+			"mn_MN",
+			"se_NO",
+			"nb_NO",
+			"nn_NO",
+			"fa_IR",
+			"pl_PL",
+			"pt_BR",
+			"pa_IN",
+			"ro_RO",
+			"ru_RU",
+			"sr_BA",
+			"sk_SK",
+			"es_ES",
+			"sw_KE",
+			"sv_SE",
+			"syr_SY",
+			"ta_IN",
+			"te_IN",
+			"th_TH",
+			"tn_ZA",
+			"tr_TR",
+			"uk_UA",
+			"uz_UZ",
+			"vi_VN",
+			"cy_GB",
+			"xh_ZA",
+			"zu_ZA"
+		],
+		"page_data": {
+			"0": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"id": "1759054281.103--9223372036854775807",
+				"lines": [
+					{
+						"address": "0.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"meta.locked": false,
+							"meta.validation_status": "OK",
+							"text_id": "1759054391.730--9223372036854775801"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759054391.730--9223372036854775802",
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.selected": false,
+				"next": 0.0,
+				"number": 0,
+				"page_key": "",
+				"skip": false,
+				"terminate": false
+			}
+		},
+		"text_data": {
+			"1759054391.730--9223372036854775801": "[]>angel:hewwo\n[]>human:hii\n[]>angel: we are speaking to you\n[]>angel: in so many ways\n[]>human: uwu\n[]>angel: faggot"
+		},
+		"text_lead_time_other_actor": 0.0,
+		"text_lead_time_same_actor": 0.0,
+		"use_dialog_syntax": true
+	}
+}
