@@ -196,6 +196,9 @@
 			"on_actor_name_about_to_change": {
 
 			},
+			"on_read_new_page": {
+
+			},
 			"play_chapter_intro": {
 				"bgm": "One <3"
 			},
@@ -263,7 +266,10 @@
 			"set_object_visible": {
 
 			},
-			"set_pixelate_bounds": {
+			"set_pixelate": {
+
+			},
+			"set_psx_pixel_resoltuion": {
 
 			},
 			"set_ruby_enabled": {
@@ -304,7 +310,7 @@
 			}
 		},
 		"head_defaults": [],
-		"id_counter": -9223372036854775519,
+		"id_counter": -9223372036854774559,
 		"import_modified_times_by_path": {
 
 		},
@@ -441,7 +447,7 @@
 										"meta.visible": false
 									},
 									"id": "1759055875.463--9223372036854775719",
-									"jump_address_mode": 0,
+									"jump_address_mode": 1,
 									"loop_address_mode": 0,
 									"loopback": false,
 									"loopback_target_line": 0,
@@ -484,7 +490,7 @@
 										"meta.visible": false
 									},
 									"id": "1759055875.521--9223372036854775714",
-									"jump_address_mode": 0,
+									"jump_address_mode": 1,
 									"loop_address_mode": 0,
 									"loopback": false,
 									"loopback_target_line": 0,
@@ -527,7 +533,7 @@
 										"meta.visible": false
 									},
 									"id": "1759055931.725--9223372036854775687",
-									"jump_address_mode": 0,
+									"jump_address_mode": 1,
 									"loop_address_mode": 0,
 									"loopback": false,
 									"loopback_target_line": 0,
@@ -542,6 +548,92 @@
 									"target_page": 3,
 									"text_id_disabled": "1759055931.725--9223372036854775685",
 									"text_id_enabled": "1759055931.725--9223372036854775686"
+								},
+								{
+									"address": "0.0.3",
+									"behavior_after_first_selection": 0,
+									"choice_text.enabled_as_default": true,
+									"conditionals": {
+										"behavior": 0,
+										"behavior_key": "Show",
+										"facts": {
+											"fact_data_by_name": {
+
+											},
+											"meta.visible": false
+										},
+										"meta.controls_collapsed": true,
+										"meta.visible": false,
+										"operand": 0,
+										"operand_args": [],
+										"operand_key": "AND"
+									},
+									"do_jump_page": true,
+									"facts": {
+										"fact_data_by_name": {
+
+										},
+										"meta.visible": false
+									},
+									"id": "1759086317.976--9223372036854774770",
+									"jump_address_mode": 1,
+									"loop_address_mode": 0,
+									"loopback": false,
+									"loopback_target_line": 0,
+									"loopback_target_page": 0,
+									"meta.disabled_visible": false,
+									"meta.enabled_visible": true,
+									"meta.jump_page_before_auto_switch": true,
+									"meta.selector": {
+										"selected": false
+									},
+									"target_line": 0,
+									"target_page": 4,
+									"text_id_disabled": "1759086317.976--9223372036854774768",
+									"text_id_enabled": "1759086317.976--9223372036854774769"
+								},
+								{
+									"address": "0.0.4",
+									"behavior_after_first_selection": 0,
+									"choice_text.enabled_as_default": true,
+									"conditionals": {
+										"behavior": 0,
+										"behavior_key": "Show",
+										"facts": {
+											"fact_data_by_name": {
+
+											},
+											"meta.visible": false
+										},
+										"meta.controls_collapsed": true,
+										"meta.visible": false,
+										"operand": 0,
+										"operand_args": [],
+										"operand_key": "AND"
+									},
+									"do_jump_page": true,
+									"facts": {
+										"fact_data_by_name": {
+
+										},
+										"meta.visible": false
+									},
+									"id": "1759086318.110--9223372036854774767",
+									"jump_address_mode": 1,
+									"loop_address_mode": 0,
+									"loopback": false,
+									"loopback_target_line": 0,
+									"loopback_target_page": 0,
+									"meta.disabled_visible": false,
+									"meta.enabled_visible": true,
+									"meta.jump_page_before_auto_switch": true,
+									"meta.selector": {
+										"selected": false
+									},
+									"target_line": 0,
+									"target_page": 5,
+									"text_id_disabled": "1759086318.110--9223372036854774765",
+									"text_id_enabled": "1759086318.110--9223372036854774766"
 								}
 							],
 							"meta.do_jump_page": true,
@@ -570,7 +662,7 @@
 				],
 				"meta.address_mode_next": 0,
 				"meta.selected": false,
-				"next": 4.0,
+				"next": 6.0,
 				"number": 0,
 				"page_key": "root",
 				"skip": false,
@@ -631,7 +723,7 @@
 				"meta.selected": false,
 				"next": 0.0,
 				"number": 1,
-				"page_key": "scene 1",
+				"page_key": "recounting the fall",
 				"skip": false,
 				"terminate": false
 			},
@@ -690,7 +782,7 @@
 				"meta.selected": false,
 				"next": 0.0,
 				"number": 2,
-				"page_key": "scene 2",
+				"page_key": "recounting the first encounter",
 				"skip": false,
 				"terminate": false
 			},
@@ -749,11 +841,129 @@
 				"meta.selected": false,
 				"next": 0.0,
 				"number": 3,
-				"page_key": "scene 3",
+				"page_key": "domestic scene",
 				"skip": false,
 				"terminate": false
 			},
 			"4": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"id": "1759086381.046--9223372036854774684",
+				"lines": [
+					{
+						"address": "4.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"meta.locked": false,
+							"meta.validation_status": "OK",
+							"text_id": "1759086457.391--9223372036854774642"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759086457.390--9223372036854774643",
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.selected": false,
+				"next": 0.0,
+				"number": 4,
+				"page_key": "inciting incident",
+				"skip": false,
+				"terminate": false
+			},
+			"5": {
+				"facts": {
+					"fact_data_by_name": {
+
+					},
+					"meta.visible": false
+				},
+				"id": "1759086381.478--9223372036854774681",
+				"lines": [
+					{
+						"address": "5.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"meta.locked": false,
+							"meta.validation_status": "OK",
+							"text_id": "1759086480.833--9223372036854774639"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759086480.833--9223372036854774640",
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					}
+				],
+				"meta.address_mode_next": 0,
+				"meta.selected": false,
+				"next": 0.0,
+				"number": 5,
+				"page_key": "big fade out",
+				"skip": false,
+				"terminate": false
+			},
+			"6": {
 				"facts": {
 					"fact_data_by_name": {
 
@@ -806,8 +1016,8 @@
 				],
 				"meta.address_mode_next": 0.0,
 				"meta.selected": false,
-				"next": 4.0,
-				"number": 4.0,
+				"next": 6.0,
+				"number": 6.0,
 				"page_key": "last scene",
 				"skip": false,
 				"terminate": true
@@ -816,16 +1026,22 @@
 		"text_data": {
 			"1759054391.730--9223372036854775801": "[]>angel:hewwo\n[]>human:hii\n[]>angel: we are speaking to you\n[]>angel: in so many ways\n[]>human: uwu\n[]>angel: faggot",
 			"1759055875.463--9223372036854775717": "",
-			"1759055875.463--9223372036854775718": "scene 1",
+			"1759055875.463--9223372036854775718": "FALLING",
 			"1759055875.464--9223372036854775715": "",
 			"1759055875.521--9223372036854775712": "",
-			"1759055875.521--9223372036854775713": "scene 2",
+			"1759055875.521--9223372036854775713": "ENCOUNTER",
 			"1759055909.779--9223372036854775701": "[]>angel:goodbye",
 			"1759055931.725--9223372036854775685": "",
-			"1759055931.725--9223372036854775686": "scene 3",
-			"1759055954.309--9223372036854775672": "[]>angel:scene 1",
-			"1759055957.928--9223372036854775669": "[]>angel:scene 2",
-			"1759055963.669--9223372036854775666": "[]>angel:scene 3"
+			"1759055931.725--9223372036854775686": "DOMESTIC",
+			"1759055954.309--9223372036854775672": "[]>angel:I fell\n[]>human: angels fell",
+			"1759055957.928--9223372036854775669": "[]>angel:They both recount their first encounter & meeting from their own perspectives",
+			"1759055963.669--9223372036854775666": "[]>angel:domestic scene\n[]>angel:Simple and not meant to be too tough on either of them. I think itd be an important day for the two. Calm before the storm type vibes.",
+			"1759086317.976--9223372036854774768": "",
+			"1759086317.976--9223372036854774769": "INCITING INCIDENT",
+			"1759086318.110--9223372036854774765": "",
+			"1759086318.110--9223372036854774766": "BIG FADE OUT",
+			"1759086457.391--9223372036854774642": "[]>angel:Inciting incident on what causes them to split apart, given angels needing positive emotions i think the girl probably slips back into like... Some sort of maladaptive thing? Might be where the SH stuff starts coming up cuz i think that's the direction I wanna take that",
+			"1759086480.833--9223372036854774639": "[]>angel:This would be the big fade out i think where its the girl recounting things a lot, probably mid attempt woof, while the angel probably slowly fades out cuz it hasn't found anyone new"
 		},
 		"text_lead_time_other_actor": 0.0,
 		"text_lead_time_same_actor": 0.0,
