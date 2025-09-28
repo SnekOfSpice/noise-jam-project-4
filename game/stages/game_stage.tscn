@@ -8,9 +8,9 @@
 [ext_resource type="Theme" uid="uid://cnoh52kg1pq8c" path="res://game/visuals/theme/proj4_theme.tres" id="7_3xf2c"]
 [ext_resource type="PackedScene" uid="uid://qkegdwc8ux5o" path="res://game/stages/black_fade.tscn" id="8_50byo"]
 [ext_resource type="Script" uid="uid://c2vvnjn4tl6a7" path="res://game/stages/game_camera.gd" id="9_lbjue"]
+[ext_resource type="PackedScene" uid="uid://bdb4ud4i4ex4o" path="res://game/stages/chapter_cover.tscn" id="11_3xf2c"]
 [ext_resource type="PackedScene" uid="uid://cg68f27bymn00" path="res://game/stages/rolling_credits.tscn" id="11_o4gqq"]
 [ext_resource type="Shader" uid="uid://bdvm0faljibq1" path="res://game/shaders/psx.gdshader" id="12_aqeli"]
-[ext_resource type="PackedScene" uid="uid://cjy7vf1xrnq5y" path="res://game/screens/chapter_cover.tscn" id="12_vf2y4"]
 [ext_resource type="Shader" uid="uid://d1luimjfmj526" path="res://game/shaders/pixelate.gdshader" id="13_aqeli"]
 [ext_resource type="PackedScene" uid="uid://biu88w163ploy" path="res://game/systems/cheats.tscn" id="13_qackq"]
 [ext_resource type="Script" uid="uid://byyv78vc44g4u" path="res://game/stages/start_cover.gd" id="13_qfsh6"]
@@ -91,7 +91,6 @@ unique_name_in_owner = true
 script = ExtResource("3_pms35")
 auto_pause_duration = 0.4
 show_text_during_choices = false
-allow_mid_line_advance = null
 actor_config = Dictionary[String, ExtResource("3_aqeli")]({
 "angel": SubResource("Resource_8g0u3"),
 "human": SubResource("Resource_o4gqq")
@@ -289,9 +288,9 @@ size_flags_vertical = 4
 [node name="ChoiceLabel" type="Label" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/ChoicePanel/VBoxContainer"]
 layout_mode = 2
 
-[node name="ChoiceList" type="HBoxContainer" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/ChoicePanel/VBoxContainer"]
+[node name="ChoiceList" type="VBoxContainer" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot/ChoicePanel/VBoxContainer"]
 layout_mode = 2
-theme_override_constants/separation = 46
+theme_override_constants/separation = 40
 
 [node name="CGTopContainer" type="Control" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot"]
 visible = false
@@ -302,10 +301,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-
-[node name="ChapterCover" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot" instance=ExtResource("12_vf2y4")]
-visible = false
-layout_mode = 1
 
 [node name="Cheats" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot" instance=ExtResource("13_qackq")]
 visible = false
@@ -346,6 +341,10 @@ script = ExtResource("13_qfsh6")
 
 [node name="RollingCredits" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot" instance=ExtResource("11_o4gqq")]
 visible = false
+layout_mode = 1
+
+[node name="ChapterCover" parent="LineReader/Camera2D/VNUICanvasLayer/VNUIRoot" instance=ExtResource("11_3xf2c")]
+unique_name_in_owner = true
 layout_mode = 1
 
 [node name="BlackLayer" type="CanvasLayer" parent="LineReader/Camera2D"]

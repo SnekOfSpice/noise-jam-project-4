@@ -1084,7 +1084,8 @@ func _process(delta: float) -> void:
 		else:
 			var old_text_length : int = body_label.visible_characters
 			if full_words:
-				var next_space_position = body_label.text.find(" ", body_label.visible_characters + 1)
+				var next_space_position = body_label.get_parsed_text().find(" ", body_label.visible_characters + 1)
+				print(next_space_position)
 				if body_label.visible_ratio != 1:
 					_full_word_timer -= delta
 				if _full_word_timer <= 0 or old_text_length == 0:

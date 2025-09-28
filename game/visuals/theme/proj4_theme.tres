@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=7 format=3 uid="uid://cnoh52kg1pq8c"]
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://cnoh52kg1pq8c"]
 
 [ext_resource type="FontFile" uid="uid://5vneyo76wenq" path="res://game/visuals/fonts/Mont-HeavyDEMO.otf" id="1_vkm7q"]
 
@@ -57,6 +57,12 @@ expand_margin_top = 5.0
 expand_margin_right = 8.0
 expand_margin_bottom = 4.0
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vkm7q"]
+content_margin_left = 8.0
+content_margin_top = 8.0
+content_margin_right = 8.0
+content_margin_bottom = 8.0
+
 [resource]
 Button/fonts/font = SubResource("FontVariation_wfn2y")
 Button/styles/focus = SubResource("StyleBoxFlat_yok8d")
@@ -68,3 +74,4 @@ MarginContainer/constants/margin_left = 10
 MarginContainer/constants/margin_right = 10
 MarginContainer/constants/margin_top = 20
 RichTextLabel/font_sizes/normal_font_size = 22
+RichTextLabel/styles/normal = SubResource("StyleBoxEmpty_vkm7q")

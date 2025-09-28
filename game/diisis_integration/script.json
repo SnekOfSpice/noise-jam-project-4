@@ -200,7 +200,7 @@
 
 			},
 			"play_chapter_intro": {
-				"bgm": "One <3"
+
 			},
 			"play_sfx": {
 
@@ -310,7 +310,7 @@
 			}
 		},
 		"head_defaults": [],
-		"id_counter": -9223372036854774559,
+		"id_counter": -9223372036854774706,
 		"import_modified_times_by_path": {
 
 		},
@@ -402,7 +402,7 @@
 					{
 						"address": "0.0",
 						"conditionals": {
-							"behavior": 0,
+							"behavior": 0.0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -412,7 +412,7 @@
 							},
 							"meta.controls_collapsed": true,
 							"meta.visible": false,
-							"operand": 0,
+							"operand": 0.0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -422,10 +422,10 @@
 							"choices": [
 								{
 									"address": "0.0.0",
-									"behavior_after_first_selection": 4,
+									"behavior_after_first_selection": 4.0,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0,
+										"behavior": 0.0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -435,7 +435,7 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0,
+										"operand": 0.0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
@@ -447,28 +447,28 @@
 										"meta.visible": false
 									},
 									"id": "1759055875.463--9223372036854775719",
-									"jump_address_mode": 1,
-									"loop_address_mode": 0,
+									"jump_address_mode": 1.0,
+									"loop_address_mode": 0.0,
 									"loopback": false,
-									"loopback_target_line": 0,
-									"loopback_target_page": 0,
+									"loopback_target_line": 0.0,
+									"loopback_target_page": 0.0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0,
-									"target_page": 1,
+									"target_line": 0.0,
+									"target_page": 1.0,
 									"text_id_disabled": "1759055875.463--9223372036854775717",
 									"text_id_enabled": "1759055875.463--9223372036854775718"
 								},
 								{
 									"address": "0.0.1",
-									"behavior_after_first_selection": 4,
+									"behavior_after_first_selection": 4.0,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0,
+										"behavior": 0.0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -478,7 +478,7 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0,
+										"operand": 0.0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
@@ -490,28 +490,28 @@
 										"meta.visible": false
 									},
 									"id": "1759055875.521--9223372036854775714",
-									"jump_address_mode": 1,
-									"loop_address_mode": 0,
+									"jump_address_mode": 1.0,
+									"loop_address_mode": 0.0,
 									"loopback": false,
-									"loopback_target_line": 0,
-									"loopback_target_page": 0,
+									"loopback_target_line": 0.0,
+									"loopback_target_page": 0.0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0,
-									"target_page": 2,
+									"target_line": 0.0,
+									"target_page": 2.0,
 									"text_id_disabled": "1759055875.521--9223372036854775712",
 									"text_id_enabled": "1759055875.521--9223372036854775713"
 								},
 								{
 									"address": "0.0.2",
-									"behavior_after_first_selection": 4,
+									"behavior_after_first_selection": 4.0,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0,
+										"behavior": 0.0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -521,7 +521,7 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0,
+										"operand": 0.0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
@@ -533,28 +533,28 @@
 										"meta.visible": false
 									},
 									"id": "1759055931.725--9223372036854775687",
-									"jump_address_mode": 1,
-									"loop_address_mode": 0,
+									"jump_address_mode": 1.0,
+									"loop_address_mode": 0.0,
 									"loopback": false,
-									"loopback_target_line": 0,
-									"loopback_target_page": 0,
+									"loopback_target_line": 0.0,
+									"loopback_target_page": 0.0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0,
-									"target_page": 3,
+									"target_line": 0.0,
+									"target_page": 3.0,
 									"text_id_disabled": "1759055931.725--9223372036854775685",
 									"text_id_enabled": "1759055931.725--9223372036854775686"
 								},
 								{
 									"address": "0.0.3",
-									"behavior_after_first_selection": 0,
+									"behavior_after_first_selection": 0.0,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0,
+										"behavior": 0.0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -564,7 +564,7 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0,
+										"operand": 0.0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
@@ -576,28 +576,28 @@
 										"meta.visible": false
 									},
 									"id": "1759086317.976--9223372036854774770",
-									"jump_address_mode": 1,
-									"loop_address_mode": 0,
+									"jump_address_mode": 1.0,
+									"loop_address_mode": 0.0,
 									"loopback": false,
-									"loopback_target_line": 0,
-									"loopback_target_page": 0,
+									"loopback_target_line": 0.0,
+									"loopback_target_page": 0.0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0,
-									"target_page": 4,
+									"target_line": 0.0,
+									"target_page": 4.0,
 									"text_id_disabled": "1759086317.976--9223372036854774768",
 									"text_id_enabled": "1759086317.976--9223372036854774769"
 								},
 								{
 									"address": "0.0.4",
-									"behavior_after_first_selection": 0,
+									"behavior_after_first_selection": 0.0,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0,
+										"behavior": 0.0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -607,7 +607,7 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0,
+										"operand": 0.0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
@@ -619,25 +619,25 @@
 										"meta.visible": false
 									},
 									"id": "1759086318.110--9223372036854774767",
-									"jump_address_mode": 1,
-									"loop_address_mode": 0,
+									"jump_address_mode": 1.0,
+									"loop_address_mode": 0.0,
 									"loopback": false,
-									"loopback_target_line": 0,
-									"loopback_target_page": 0,
+									"loopback_target_line": 0.0,
+									"loopback_target_page": 0.0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0,
-									"target_page": 5,
+									"target_line": 0.0,
+									"target_page": 5.0,
 									"text_id_disabled": "1759086318.110--9223372036854774765",
 									"text_id_enabled": "1759086318.110--9223372036854774766"
 								}
 							],
 							"meta.do_jump_page": true,
-							"meta.editing_view": 0,
+							"meta.editing_view": 0.0,
 							"title_id": "1759055875.464--9223372036854775715"
 						},
 						"facts": {
@@ -648,22 +648,22 @@
 						},
 						"header": [],
 						"id": "1759055875.463--9223372036854775716",
-						"line_type": 1,
+						"line_type": 1.0,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0,
+						"meta.indent_level": 0.0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 0.0,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					}
 				],
-				"meta.address_mode_next": 0,
+				"meta.address_mode_next": 0.0,
 				"meta.selected": false,
 				"next": 6.0,
-				"number": 0,
+				"number": 0.0,
 				"page_key": "root",
 				"skip": false,
 				"terminate": false
@@ -679,6 +679,52 @@
 				"lines": [
 					{
 						"address": "1.0",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "play_chapter_intro(the fall)",
+							"meta.validation_status": "OK",
+							"name": "play_chapter_intro",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759088511.085--9223372036854774780",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "1.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -712,7 +758,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
@@ -754,6 +800,52 @@
 							"operand_key": "AND"
 						},
 						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "play_chapter_intro(the encounter)",
+							"meta.validation_status": "OK",
+							"name": "play_chapter_intro",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759088531.805--9223372036854774772",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "2.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
 							"meta.locked": false,
 							"meta.validation_status": "OK",
 							"text_id": "1759055957.928--9223372036854775669"
@@ -771,7 +863,48 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "2.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"meta.locked": false,
+							"meta.validation_status": "OK",
+							"text_id": "1759088134.421--9223372036854774495"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759088134.421--9223372036854774496",
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						},
@@ -813,6 +946,52 @@
 							"operand_key": "AND"
 						},
 						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "play_chapter_intro(the sun on her skin)",
+							"meta.validation_status": "OK",
+							"name": "play_chapter_intro",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759088541.414--9223372036854774764",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "3.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
 							"meta.locked": false,
 							"meta.validation_status": "OK",
 							"text_id": "1759055963.669--9223372036854775666"
@@ -830,7 +1009,48 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "3.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"meta.locked": false,
+							"meta.validation_status": "OK",
+							"text_id": "1759087938.609--9223372036854774502"
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759087938.609--9223372036854774503",
+						"line_type": 0,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						},
@@ -872,6 +1092,52 @@
 							"operand_key": "AND"
 						},
 						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "play_chapter_intro(the slip)",
+							"meta.validation_status": "OK",
+							"name": "play_chapter_intro",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759088553.943--9223372036854774759",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "4.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
 							"meta.locked": false,
 							"meta.validation_status": "OK",
 							"text_id": "1759086457.391--9223372036854774642"
@@ -889,7 +1155,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
@@ -931,6 +1197,52 @@
 							"operand_key": "AND"
 						},
 						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "play_chapter_intro(the ascent)",
+							"meta.validation_status": "OK",
+							"name": "play_chapter_intro",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759088569.375--9223372036854774754",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "5.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
 							"meta.locked": false,
 							"meta.validation_status": "OK",
 							"text_id": "1759086480.833--9223372036854774639"
@@ -948,7 +1260,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
@@ -973,7 +1285,7 @@
 				"id": "1759055894.766--9223372036854775705",
 				"lines": [
 					{
-						"address": "1.0",
+						"address": "6.0",
 						"conditionals": {
 							"behavior": 0.0,
 							"behavior_key": "Show",
@@ -1033,15 +1345,17 @@
 			"1759055909.779--9223372036854775701": "[]>angel:goodbye",
 			"1759055931.725--9223372036854775685": "",
 			"1759055931.725--9223372036854775686": "DOMESTIC",
-			"1759055954.309--9223372036854775672": "[]>angel:I fell\n[]>human: angels fell",
-			"1759055957.928--9223372036854775669": "[]>angel:They both recount their first encounter & meeting from their own perspectives",
+			"1759055954.309--9223372036854775672": "[]>angel: This one was 5,000 when we began to fall.\n[]>angel: This one had met many in its travels when it finally did.\n[]>angel: None quite as effervescent with potential as.\n[]>angel: Her.\n[]>human: I was 13 when the first angel fell from heaven.\n[]>human: A day so important, but so mundane.\n[]>human: They didn't even let us out of the schools.\n[]>human: Not even after some started taking us away.\n[]>angel: But this one is...Getting ahead of itself.\n[]>angel: It did not fall until 5,010.\n[]>angel: It cannot quite describe the feeling.\n[]>angel: The cacophony of noise.\n[]>angel: The wind in its hair.\n[]>angel: Its halo slipping down to choke it as it falls further.\n[]>angel: And further.\n[]>angel: And further.\n[]>angel: Until it stopped falling.",
+			"1759055957.928--9223372036854775669": "[]>angel:They both recount their first encounter &amp; meeting from their own perspectives",
 			"1759055963.669--9223372036854775666": "[]>angel:domestic scene\n[]>angel:Simple and not meant to be too tough on either of them. I think itd be an important day for the two. Calm before the storm type vibes.",
 			"1759086317.976--9223372036854774768": "",
 			"1759086317.976--9223372036854774769": "INCITING INCIDENT",
 			"1759086318.110--9223372036854774765": "",
 			"1759086318.110--9223372036854774766": "BIG FADE OUT",
-			"1759086457.391--9223372036854774642": "[]>angel:Inciting incident on what causes them to split apart, given angels needing positive emotions i think the girl probably slips back into like... Some sort of maladaptive thing? Might be where the SH stuff starts coming up cuz i think that's the direction I wanna take that",
-			"1759086480.833--9223372036854774639": "[]>angel:This would be the big fade out i think where its the girl recounting things a lot, probably mid attempt woof, while the angel probably slowly fades out cuz it hasn't found anyone new"
+			"1759086457.391--9223372036854774642": "[]>angel: It watched her.\n[]>angel: It watched her slip away.\n[]>angel: Fall down into her quagmire of past vice and self-abuse.\n[]>angel: Her blood mirrored that of the ocean from whence this one emerged.\n[]>angel: Yet this one was birthed from yonder.\n[]>angel: This one was birthed from the blood.\n[]>angel: Its form swept up by and carried among the chromatic shimmer and pearlescent crimson and gilded waves.\n[]>angel: And.\n[]>angel: This is naught.\n[]>angel: She is naught.\n[]>angel: She is distraught.\n[]>angel: What gives this one life is the blood both outside and inside.\n[]>angel: Outside, the ocean.\n[]>angel: Inside, her veins.\n[]>angel: This one wept for hours and days and all of Annette's vigor spilled forth and without abating she slashed and...\n[]>angel: And this one was lost.\n[]>angel: This one cried.\n[]>angel: This one cried oh so dearly up to its home nevermore.\n[]>angel: Nd when this one's tears dried up.\n[]>angel: When this one's tears dried up...\n[]>angel: There was nothing left.\n[]>angel: Annette's arms had become a tallymark of this one's failure.\n[]>angel: Annette's arms had become a reminder of this one's weakness.\n[]>angel: The existential vice of reliance on the sun.\n[]>angel: The sun shored in each charge.\n[]>angel: Allegedly.\n[]>angel: Allege, oh you fool.\n[]>angel: This one was there and its purpose was dried blood on her bedroom floor and soaked in hastily made bindings and wrappings.\n[]>angel: Gauze and bandages and none of it applied properly.\n[]>angel: None of it could hide her agony.\n[]>angel: None of it could provide for it.\n[]>angel: Annette became nothing in front of this one's eyes.\n[]>angel: And in turn, it became nothing to Annette.\n[]>angel: If it ever was.",
+			"1759086480.833--9223372036854774639": "[]>angel: This one climbed up to the roof of world.\n[]>angel: ...Roof of.\n[]>angel: Roof of...\n[]>angel: No matter.\n[]>angel: It felt its wings dissolve into the wind currents expanded over the ocean below.\n[]>angel: Its spawning touching grounds.\n[]>angel: The hole in its chest grew larger andit was recalled and deemed unworthy and...\n[]>angel: The charge flitted away.\n[]>angel: Away.",
+			"1759087938.609--9223372036854774502": "[]>angel: the sun had just come up\n[]>angel: the sun had just come up and this one was curled up besides Annette\n[]>angel: gentle breezes wafting in and carrying with them the seraphic hemoglobin from which this one emerged just the same mere weeks ago.\n[]>angel: her face was peaceful, then.",
+			"1759088134.421--9223372036854774495": "[]>angel: this one fell\n[]>angel: this one washed up\n[]>angel: red mucus dripping\n[]>angel: red mucus dripping down its form\n[]>angel: strands of gore its dressing\n[]>angel: and before it saw, after it knew for it always knew, before it, its charge\n[]>human: dialogue?\n[]>angel: this one looked in horror\n[]>angel: this one looked in horror because its charge did not\n[]>angel: she prevailed\n[]>angel: as if she were no stranger to a sight like this"
 		},
 		"text_lead_time_other_actor": 0.0,
 		"text_lead_time_same_actor": 0.0,

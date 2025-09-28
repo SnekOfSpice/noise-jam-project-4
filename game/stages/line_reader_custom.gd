@@ -47,8 +47,10 @@ func set_pixelate(pixel_size:float):
 func on_actor_name_about_to_change(actor_name:String):
 	if actor_name == "human":
 		set_body_label(%BodyLabelHuman, false)
+		full_words = false
 	else:
 		set_body_label(%BodyLabelAngel, false)
+		full_words = true
 
 func play_sfx(_name:String):
 	Sound.play_sfx(_name)
@@ -111,10 +113,8 @@ func set_background(_name:String, fade_time:=0.0):
 	return false
 
 
-func play_chapter_intro(pov_name: String, bottom_text: String, new_background: String, zoom: float, bgm: = "One <3") -> bool:
-	if bgm == "null":
-		bgm = Sound.bgm_key
-	emit_signal("start_chapter_cover", pov_name, bottom_text, new_background, zoom, bgm)
+func play_chapter_intro(chapter_title:String) -> bool:
+	%ChapterCover.run(chapter_title.to_upper())
 	return true
 
 
