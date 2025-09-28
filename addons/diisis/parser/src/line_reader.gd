@@ -2342,6 +2342,9 @@ func _build_choices(choices, auto_switch:bool):
 		_built_virtual_choices = built_choices
 		for c in choice_list.get_children():
 			c.visible = false
+	
+	if built_choices.is_empty() and not auto_switch:
+		emit_signal("line_finished", line_index)
 
 func _set_choice_title_or_warn(title: String):
 	current_choice_title = title
