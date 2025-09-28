@@ -99,10 +99,32 @@ func go_to_main_menu(_unused):
 	GameWorld.stage_root.change_stage(CONST.STAGE_MAIN)
 
 
-func _process(_delta: float) -> void:
+var pixelate_lower_bound := 1.0
+var pixelate_upper_bound := 4.5
+var pixelate_direction := 1
+var pixelate_undulate_speed := 0.1
+
+#func set_pixelate_bounds(lower:float, upper:float):
+	#pixelate_lower_bound = lower
+	#pixelate_upper_bound = upper
+func _process(delta: float) -> void:
 	find_child("VFXLayer").position = -camera.offset * camera.zoom.x
-
-
+	
+	#var step : float
+	#var current_pixelate : float = %PixelateRect.get_material().get_shader_parameter("pixel_size")
+	##print(current_pixelate)
+	#if pixelate_direction == 1: # up
+		#step = sqrt(pixelate_upper_bound - current_pixelate)
+	#else:
+		#step = sqrt(current_pixelate - pixelate_lower_bound)
+	#step *= pixelate_undulate_speed
+	#step *= pixelate_direction
+	#step *= delta
+	#var next_pixelate = current_pixelate + step
+	#if next_pixelate > pixelate_upper_bound or next_pixelate < pixelate_lower_bound:
+		#pixelate_direction *= -1
+	#print(next_pixelate)
+	#%PixelateRect.get_material().set_shader_parameter("pixel_size", next_pixelate)
 func _unhandled_input(event: InputEvent) -> void:
 	if not GameWorld.stage_root.screen.is_empty():
 		return

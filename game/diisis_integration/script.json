@@ -263,6 +263,9 @@
 			"set_object_visible": {
 
 			},
+			"set_pixelate_bounds": {
+
+			},
 			"set_ruby_enabled": {
 
 			},
@@ -301,7 +304,7 @@
 			}
 		},
 		"head_defaults": [],
-		"id_counter": -9223372036854775575,
+		"id_counter": -9223372036854775519,
 		"import_modified_times_by_path": {
 
 		},

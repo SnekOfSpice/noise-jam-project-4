@@ -57,6 +57,8 @@ var _auto_continue_duration:= auto_continue_delay
 @export var show_text_during_instructions := false
 ## As opposed to [member show_text_during_choices] or [member show_text_during_instructions], this property [i]guarantees[/i] that the [member text_container] will be visible when text is being read.
 @export var show_text_during_text := true
+## If disabled, [method advance] can only be called if the line reader is at the end of the current chunk
+@export var allow_mid_line_advance := true
 
 @export_group("Name Display")
 @export var actor_config : Dictionary[String, LineReaderActorConfig]
@@ -656,13 +658,14 @@ func _set_custom_blockers(new_value:int):
 	_is_advance_blocked = is_advance_blocked(false, false)
 	_update_input_prompt(0)
 
+
 ## you can use this to poll the internal state
 func is_advance_blocked(include_warnings:=false, include_auto_continue:=true) -> bool:
+	if Engine.is_editor_hint():
+		return false
 	if _lead_time > 0:
 		if include_warnings:
 			push_warning("Cannot advance because _lead_time > 0.")
-		return false
-	if Engine.is_editor_hint():
 		return false
 	if Parser.paused:
 		if warn_advance_on_parser_paused and include_warnings:
@@ -720,6 +723,10 @@ func advance():
 				_remaining_prompt_delay = input_prompt_delay
 				_set_dialog_line_index(_dialog_line_index + 1)
 		else:
+			if not allow_mid_line_advance:
+				if body_label.visible_characters != _get_end_of_chunk_position():
+					push_warning("Cannot advance because allow_mid_line_advance is false and you're not at the end of the chunk.")
+					return false
 			if _next_pause_position_index < _pause_positions.size():
 				body_label.visible_characters = _get_end_of_chunk_position() 
 				if _next_pause_type != _PauseTypes.EoL:

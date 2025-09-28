@@ -28,6 +28,21 @@ func _ready() -> void:
 		return
 	camera = %Camera2D
 	ParserEvents.actor_name_about_to_change.connect(on_actor_name_about_to_change)
+	ParserEvents.read_new_page.connect(on_read_new_page)
+
+func on_read_new_page(page:int):
+	var roughness := 1.0 - float(page) / Parser.get_page_count()
+	roughness = clamp(roughness, 0.5, 0.8)
+	if page == 0:
+		roughness = 0
+	set_pixelate(1.0 + 2 * roughness)
+	set_psx_pixel_resoltuion(360 - 120 * roughness)
+
+func set_psx_pixel_resoltuion(resolution:float):
+	%PSXRect.get_material().set_shader_parameter("pixel_resolution", resolution)
+func set_pixelate(pixel_size:float):
+	%PixelateRect.get_material().set_shader_parameter("pixel_size", pixel_size)
+
 
 func on_actor_name_about_to_change(actor_name:String):
 	if actor_name == "human":
@@ -38,6 +53,9 @@ func on_actor_name_about_to_change(actor_name:String):
 func play_sfx(_name:String):
 	Sound.play_sfx(_name)
 	return false
+
+
+
 
 func set_bgm(_name:String, fade_in:float):
 	Sound.play_bgm(_name, fade_in)
