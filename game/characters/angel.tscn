@@ -1,0 +1,67 @@
+[gd_scene load_steps=9 format=3 uid="uid://cmsjc7ehdffv4"]
+
+[ext_resource type="Texture2D" uid="uid://b8y3u7wk5q8dt" path="res://game/characters/sprites/angel1.png" id="1_17py8"]
+[ext_resource type="Shader" uid="uid://h4dlxk4bguvv" path="res://game/characters/distort.gdshader" id="1_bsbi2"]
+[ext_resource type="Script" uid="uid://6e67tntwq484" path="res://game/characters/angel.gd" id="1_e4b2u"]
+[ext_resource type="Texture2D" uid="uid://b8wjw4vvbsbph" path="res://game/characters/sprites/angel2.png" id="2_bsbi2"]
+[ext_resource type="Texture2D" uid="uid://2akiwao5rxje" path="res://game/characters/sprites/halo.png" id="4_md6an"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pms35"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_17py8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_bsbi2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 0.5
+}]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_bsbi2"]
+viewport_path = NodePath("SubViewportContainer/SubViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j53w4"]
+resource_local_to_scene = true
+shader = ExtResource("1_bsbi2")
+shader_parameter/iChannel0 = SubResource("ViewportTexture_bsbi2")
+shader_parameter/strength = -8.86
+shader_parameter/speed = 0.42
+shader_parameter/disp = Vector2(1.12, 1)
+
+[node name="Angel" type="Node2D"]
+script = ExtResource("1_e4b2u")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+offset_left = 1494.0
+offset_top = 35.0
+offset_right = 2134.0
+offset_bottom = 515.0
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(640, 480)
+render_target_update_mode = 4
+
+[node name="Angel" type="AnimatedSprite2D" parent="SubViewportContainer/SubViewport"]
+position = Vector2(186, 298)
+sprite_frames = SubResource("SpriteFrames_pms35")
+autoplay = "default"
+
+[node name="Halo" type="Sprite2D" parent="SubViewportContainer/SubViewport/Angel"]
+unique_name_in_owner = true
+position = Vector2(4, -116)
+texture = ExtResource("4_md6an")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer2"]
+material = SubResource("ShaderMaterial_j53w4")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

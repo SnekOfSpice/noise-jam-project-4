@@ -63,9 +63,6 @@ func _ready():
 	line_reader.text_speed = Options.text_speed
 	line_reader.auto_continue_delay = Options.auto_continue_delay
 	
-	for character in find_child("Characters").get_children():
-		character.visible = false
-	
 	grab_focus()
 	
 	tree_exiting.connect(on_tree_exit)
@@ -309,11 +306,6 @@ func set_callable_upon_blocker_clear(callable:Callable):
 func serialize() -> Dictionary:
 	var result := {}
 	
-	var character_data := {}
-	for character : Character in find_child("Characters").get_children():
-		character_data[character.character_name] = character.serialize()
-	
-	result["character_data"] = character_data
 	result["cg"] = cg
 	result["cg_position"] = cg_position
 	result["base_cg_offset"] = base_cg_offset
@@ -342,9 +334,6 @@ func serialize() -> Dictionary:
 	#root.find_child("BodyLabel").visible_characters = data.get("visible_characters", -1)
 
 func deserialize(data:Dictionary):
-	var character_data : Dictionary = data.get("character_data", {})
-	for character : Character in find_child("Characters").get_children():
-		character.deserialize(character_data.get(character.character_name, {}))
 	
 	%Objects.deserialize(data.get("objects", {}))
 	%Camera2D.deserialize(data.get("camera", {}))
@@ -381,11 +370,6 @@ func deserialize(data:Dictionary):
 
 var emit_insutrction_complete_on_cg_hide :bool
 
-func get_character(character_name:String) -> Character:
-	for child : Character in %Characters.get_children():
-		if child.character_name == character_name:
-			return child
-	return null
 
 func _on_history_button_pressed() -> void:
 	GameWorld.stage_root.set_screen(CONST.SCREEN_HISTORY)
