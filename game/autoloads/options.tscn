@@ -4,4 +4,4 @@
 
 [node name="Options" type="Node"]
 script = ExtResource("1_v8dpk")
-text_speed = 60
+text_speed = 38

@@ -29,6 +29,12 @@ func _ready() -> void:
 	camera = %Camera2D
 	ParserEvents.actor_name_about_to_change.connect(on_actor_name_about_to_change)
 	ParserEvents.read_new_page.connect(on_read_new_page)
+	ParserEvents.choice_pressed.connect(on_choice_pressed)
+
+func on_choice_pressed(do_jump_page: bool, target_page: int, target_line: int, set_loopback: bool, loopback_trigger_page: int, loopback_trigger_line: int, choice_text: String):
+	%BodyLabelAngel.text = ""
+	%BodyLabelHuman.text = ""
+
 
 func on_read_new_page(page:int):
 	var roughness := 1.0 - float(page) / Parser.get_page_count()

@@ -10,10 +10,11 @@ config_version=5
 
 [application]
 
-config/name="noise jam project 4"
+config/name="Angelarium"
 run/main_scene="res://game/stages/stage_root.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://cf8g5ncnb0r7y"
+config/windows_native_icon="res://game/visuals/icon.ico"
 
 [autoload]
 

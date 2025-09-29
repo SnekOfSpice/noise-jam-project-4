@@ -131,8 +131,8 @@ func _unhandled_input(event: InputEvent) -> void:
 		attempt_advance(event)
 	if event is InputEventKey:
 		if event.is_released():
-			if InputMap.action_has_event("ui_cancel", event):
-				GameWorld.stage_root.set_screen(CONST.SCREEN_OPTIONS)
+			#if InputMap.action_has_event("ui_cancel", event):
+				#GameWorld.stage_root.set_screen(CONST.SCREEN_OPTIONS)
 			if InputMap.action_has_event("screenshot", event):
 				var screenshot := get_viewport().get_texture().get_image()
 				var path := str("user://screenshot_", ProjectSettings.get_setting("application/config/name").replace("://", " "), "_", Time.get_datetime_string_from_system().replace(":", "-"), ".png")
