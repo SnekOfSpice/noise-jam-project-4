@@ -186,3 +186,15 @@ func set_object_visible(object_name: String, visibility: bool) -> bool:
 func use_ui(id: float) -> bool:
 	GameWorld.game_stage.use_ui(int(id))
 	return false
+
+func set_angel_box_alpha(alpha:float):
+	%BodyLabelAngel.self_modulate.a = alpha
+func set_human_box_alpha(alpha:float):
+	%BodyLabelHuman.self_modulate.a = alpha
+
+func sync_human_text(text:String):
+	%BodyLabelHuman.visible_ratio = 0
+	%BodyLabelHuman.text = text
+	var t = create_tween()
+	var time_to_full_text : float = float(text.length()) / float(_get_current_text_speed())
+	t.tween_property(%BodyLabelHuman, "visible_ratio", 1, time_to_full_text)
