@@ -31,7 +31,7 @@ func _ready() -> void:
 	ParserEvents.read_new_page.connect(on_read_new_page)
 	ParserEvents.choice_pressed.connect(on_choice_pressed)
 
-func on_choice_pressed(do_jump_page: bool, target_page: int, target_line: int, set_loopback: bool, loopback_trigger_page: int, loopback_trigger_line: int, choice_text: String):
+func on_choice_pressed(_do_jump_page: bool, _target_page: int, _target_line: int, _set_loopback: bool, _loopback_trigger_page: int, _loopback_trigger_line: int, _choice_text: String):
 	%BodyLabelAngel.text = ""
 	%BodyLabelHuman.text = ""
 
@@ -119,8 +119,10 @@ func set_background(_name:String, fade_time:=0.0):
 	return false
 
 
-func play_chapter_intro(chapter_title:String) -> bool:
+func play_chapter_intro(chapter_title:String, background:="") -> bool:
 	%ChapterCover.run(chapter_title.to_upper())
+	if not background.is_empty():
+		set_background(background)
 	return true
 
 

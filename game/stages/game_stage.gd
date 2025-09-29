@@ -40,8 +40,8 @@ func get_default_targets() -> Dictionary:
 	return result
 
 func _ready():
-	if devmode_enabled:
-		set_background("void")
+	#if devmode_enabled:
+		#set_background("void")
 	
 	%BodyLabelAngel.text = ""
 	%BodyLabelHuman.text = ""
