@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://mkn3hrlsnwh6"]
+
+[ext_resource type="Script" uid="uid://ob6h0t7cb1t1" path="res://game/characters/jittery_sprite.gd" id="1_cawps"]
+
+[node name="JitterySprite" type="Sprite2D"]
+script = ExtResource("1_cawps")

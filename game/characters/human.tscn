@@ -1,0 +1,48 @@
+[gd_scene load_steps=10 format=3 uid="uid://dvujbum1l86gl"]
+
+[ext_resource type="Script" uid="uid://desn7yyrb1des" path="res://game/characters/human.gd" id="1_qnwxh"]
+[ext_resource type="PackedScene" uid="uid://mkn3hrlsnwh6" path="res://game/characters/jittery_sprite.tscn" id="2_3inmk"]
+[ext_resource type="Texture2D" uid="uid://dslhfkk7i8iwf" path="res://game/characters/sprites/human7.png" id="3_np2oe"]
+[ext_resource type="Texture2D" uid="uid://cdj14t2vj746t" path="res://game/characters/sprites/human6.png" id="4_8j37i"]
+[ext_resource type="Texture2D" uid="uid://bshlwujdbb1gy" path="res://game/characters/sprites/human4.png" id="5_ge1eh"]
+[ext_resource type="Texture2D" uid="uid://c8fcmgiw1sxk1" path="res://game/characters/sprites/human5.png" id="6_c2unl"]
+[ext_resource type="Texture2D" uid="uid://cvv41t8lobsjo" path="res://game/characters/sprites/human3.png" id="7_v5s53"]
+[ext_resource type="Texture2D" uid="uid://bnr1b1y4pkywb" path="res://game/characters/sprites/human2.png" id="8_sw6jj"]
+[ext_resource type="Texture2D" uid="uid://buck2b8gfgfsx" path="res://game/characters/sprites/human1.png" id="9_8tboj"]
+
+[node name="Human" type="Node2D"]
+script = ExtResource("1_qnwxh")
+
+[node name="JitterySprite7" parent="." instance=ExtResource("2_3inmk")]
+texture = ExtResource("3_np2oe")
+move_timer_lower_bound = 2.24
+move_timer_upper_bound = 5.97
+
+[node name="JitterySprite6" parent="." instance=ExtResource("2_3inmk")]
+texture = ExtResource("4_8j37i")
+move_timer_lower_bound = 5.265
+move_timer_upper_bound = 12.69
+rotate_timer_upper_bound = 0.645
+
+[node name="JitterySprite4" parent="." instance=ExtResource("2_3inmk")]
+texture = ExtResource("5_ge1eh")
+
+[node name="JitterySprite5" parent="." instance=ExtResource("2_3inmk")]
+texture = ExtResource("6_c2unl")
+move_timer_lower_bound = 10.0
+move_timer_upper_bound = 20.0
+rotate_timer_lower_bound = 1.1
+rotate_timer_upper_bound = 1.475
+
+[node name="JitterySprite3" parent="." instance=ExtResource("2_3inmk")]
+texture = ExtResource("7_v5s53")
+
+[node name="JitterySprite2" parent="." instance=ExtResource("2_3inmk")]
+texture = ExtResource("8_sw6jj")
+move_timer_upper_bound = 3.85
+
+[node name="JitterySprite" parent="." instance=ExtResource("2_3inmk")]
+texture = ExtResource("9_8tboj")
+move_timer_lower_bound = 0.89
+move_timer_upper_bound = 1.33
+rotate_timer_upper_bound = 0.2
