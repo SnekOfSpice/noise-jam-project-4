@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmtprgjy26rko"
-path="res://.godot/imported/skyline.png-baeb3be471802f8d369e8141c62748d6.ctex"
+uid="uid://cpjkbou0lqnpo"
+path="res://.godot/imported/ocean.png-e124d1fefae26c42d0bf57afd6735f55.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/backgrounds/skyline.png"
-dest_files=["res://.godot/imported/skyline.png-baeb3be471802f8d369e8141c62748d6.ctex"]
+source_file="res://game/backgrounds/ocean.png"
+dest_files=["res://.godot/imported/ocean.png-e124d1fefae26c42d0bf57afd6735f55.ctex"]
 
 [params]
 

@@ -15,8 +15,6 @@ const SCREEN_SAVE := "save_screen.tscn"
 const CG_ROOT := "res://game/cg/"
 
 const BACKGROUND_ROOT := "res://game/backgrounds/"
-const BACKGROUND_DEFAULT := "void.png"
-const BACKGROUND_SKYLINE := "skyline.png"
 
 const MUSIC_ROOT := "res://game/sounds/music/"
 const MUSIC_DEFAULT := "Loyalty Freak Music - CHILL FOR REAL ! - 06 Vroom Vroom Heart Heart -blob_0w0-​.ogg"

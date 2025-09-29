@@ -1,9 +1,10 @@
-[gd_scene load_steps=24 format=3 uid="uid://r1ntcqdujfol"]
+[gd_scene load_steps=25 format=3 uid="uid://r1ntcqdujfol"]
 
 [ext_resource type="Script" uid="uid://j84s4qlkmfxw" path="res://game/stages/game_stage.gd" id="1_a36me"]
 [ext_resource type="Script" uid="uid://dycysb8joq17f" path="res://addons/diisis/parser/src/resources/line_reader_actor_config.gd" id="3_aqeli"]
 [ext_resource type="Script" uid="uid://bqw08o3b22fdc" path="res://game/stages/line_reader_custom.gd" id="3_pms35"]
 [ext_resource type="Script" uid="uid://brouc1vl1o5us" path="res://game/stages/objects.gd" id="3_x2eff"]
+[ext_resource type="Texture2D" uid="uid://dfxmdley5xl6k" path="res://game/backgrounds/default.png" id="4_qvfwk"]
 [ext_resource type="PackedScene" uid="uid://cmsjc7ehdffv4" path="res://game/characters/angel.tscn" id="5_j1uqk"]
 [ext_resource type="PackedScene" uid="uid://dvujbum1l86gl" path="res://game/characters/human.tscn" id="5_knhaa"]
 [ext_resource type="Shader" uid="uid://dws3q0loflbkg" path="res://game/stages/darknoise.gdshader" id="6_o4gqq"]
@@ -111,10 +112,10 @@ warn_on_non_bool_function_return = false
 
 [node name="Background" type="Node2D" parent="LineReader"]
 unique_name_in_owner = true
-position = Vector2(76, -51)
 
 [node name="Sprite2D" type="Sprite2D" parent="LineReader/Background"]
-position = Vector2(493, 334)
+texture = ExtResource("4_qvfwk")
+centered = false
 
 [node name="Objects" type="Node2D" parent="LineReader"]
 unique_name_in_owner = true

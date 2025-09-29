@@ -73,5 +73,7 @@ MarginContainer/constants/margin_bottom = 20
 MarginContainer/constants/margin_left = 10
 MarginContainer/constants/margin_right = 10
 MarginContainer/constants/margin_top = 20
+RichTextLabel/colors/font_outline_color = Color(0.469148, 0, 0.114326, 1)
+RichTextLabel/constants/outline_size = 3
 RichTextLabel/font_sizes/normal_font_size = 22
 RichTextLabel/styles/normal = SubResource("StyleBoxEmpty_vkm7q")
