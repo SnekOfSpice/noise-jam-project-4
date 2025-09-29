@@ -99,7 +99,9 @@
 			"res://game/stages/line_reader_custom.gd": 1757065440
 		},
 		"facts": {
-
+			"pic": false,
+			"pick": false,
+			"picked a choice": false
 		},
 		"file_config": {
 			"evaluator_paths": [
@@ -236,7 +238,7 @@
 				"fade_time": 0.0
 			},
 			"set_bgm": {
-
+				"fade_in": 4.0
 			},
 			"set_body_label": {
 				"keep_text": true
@@ -310,7 +312,7 @@
 			}
 		},
 		"head_defaults": [],
-		"id_counter": -9223372036854774706,
+		"id_counter": -9223372036854774605,
 		"import_modified_times_by_path": {
 
 		},
@@ -402,7 +404,60 @@
 					{
 						"address": "0.0",
 						"conditionals": {
-							"behavior": 0.0,
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+									"picked a choice": {
+										"data_type": 0,
+										"fact_name": "picked a choice",
+										"fact_value": false,
+										"int_comparator": 0,
+										"int_operator": 0,
+										"is_conditional": true
+									}
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_bgm(start_noise, 0)",
+							"meta.validation_status": "OK",
+							"name": "set_bgm",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759127816.076--9223372036854774708",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "0.1",
+						"conditionals": {
+							"behavior": 0,
 							"behavior_key": "Show",
 							"facts": {
 								"fact_data_by_name": {
@@ -412,7 +467,7 @@
 							},
 							"meta.controls_collapsed": true,
 							"meta.visible": false,
-							"operand": 0.0,
+							"operand": 0,
 							"operand_args": [],
 							"operand_key": "AND"
 						},
@@ -421,11 +476,11 @@
 							"choice_order": [],
 							"choices": [
 								{
-									"address": "0.0.0",
-									"behavior_after_first_selection": 4.0,
+									"address": "0.1.0",
+									"behavior_after_first_selection": 4,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0.0,
+										"behavior": 0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -435,40 +490,47 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0.0,
+										"operand": 0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
 									"do_jump_page": true,
 									"facts": {
 										"fact_data_by_name": {
-
+											"picked a choice": {
+												"data_type": 0,
+												"fact_name": "picked a choice",
+												"fact_value": true,
+												"int_comparator": 0,
+												"int_operator": 0,
+												"is_conditional": false
+											}
 										},
 										"meta.visible": false
 									},
 									"id": "1759055875.463--9223372036854775719",
-									"jump_address_mode": 1.0,
-									"loop_address_mode": 0.0,
+									"jump_address_mode": 1,
+									"loop_address_mode": 0,
 									"loopback": false,
-									"loopback_target_line": 0.0,
-									"loopback_target_page": 0.0,
+									"loopback_target_line": 0,
+									"loopback_target_page": 0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0.0,
-									"target_page": 1.0,
+									"target_line": 0,
+									"target_page": 1,
 									"text_id_disabled": "1759055875.463--9223372036854775717",
 									"text_id_enabled": "1759055875.463--9223372036854775718"
 								},
 								{
-									"address": "0.0.1",
-									"behavior_after_first_selection": 4.0,
+									"address": "0.1.1",
+									"behavior_after_first_selection": 4,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0.0,
+										"behavior": 0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -478,40 +540,47 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0.0,
+										"operand": 0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
 									"do_jump_page": true,
 									"facts": {
 										"fact_data_by_name": {
-
+											"picked a choice": {
+												"data_type": 0,
+												"fact_name": "picked a choice",
+												"fact_value": true,
+												"int_comparator": 0,
+												"int_operator": 0,
+												"is_conditional": false
+											}
 										},
 										"meta.visible": false
 									},
 									"id": "1759055875.521--9223372036854775714",
-									"jump_address_mode": 1.0,
-									"loop_address_mode": 0.0,
+									"jump_address_mode": 1,
+									"loop_address_mode": 0,
 									"loopback": false,
-									"loopback_target_line": 0.0,
-									"loopback_target_page": 0.0,
+									"loopback_target_line": 0,
+									"loopback_target_page": 0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0.0,
-									"target_page": 2.0,
+									"target_line": 0,
+									"target_page": 2,
 									"text_id_disabled": "1759055875.521--9223372036854775712",
 									"text_id_enabled": "1759055875.521--9223372036854775713"
 								},
 								{
-									"address": "0.0.2",
-									"behavior_after_first_selection": 4.0,
+									"address": "0.1.2",
+									"behavior_after_first_selection": 4,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0.0,
+										"behavior": 0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -521,40 +590,47 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0.0,
+										"operand": 0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
 									"do_jump_page": true,
 									"facts": {
 										"fact_data_by_name": {
-
+											"picked a choice": {
+												"data_type": 0,
+												"fact_name": "picked a choice",
+												"fact_value": true,
+												"int_comparator": 0,
+												"int_operator": 0,
+												"is_conditional": false
+											}
 										},
 										"meta.visible": false
 									},
 									"id": "1759055931.725--9223372036854775687",
-									"jump_address_mode": 1.0,
-									"loop_address_mode": 0.0,
+									"jump_address_mode": 1,
+									"loop_address_mode": 0,
 									"loopback": false,
-									"loopback_target_line": 0.0,
-									"loopback_target_page": 0.0,
+									"loopback_target_line": 0,
+									"loopback_target_page": 0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0.0,
-									"target_page": 3.0,
+									"target_line": 0,
+									"target_page": 3,
 									"text_id_disabled": "1759055931.725--9223372036854775685",
 									"text_id_enabled": "1759055931.725--9223372036854775686"
 								},
 								{
-									"address": "0.0.3",
-									"behavior_after_first_selection": 0.0,
+									"address": "0.1.3",
+									"behavior_after_first_selection": 0,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0.0,
+										"behavior": 0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -564,40 +640,47 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0.0,
+										"operand": 0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
 									"do_jump_page": true,
 									"facts": {
 										"fact_data_by_name": {
-
+											"picked a choice": {
+												"data_type": 0,
+												"fact_name": "picked a choice",
+												"fact_value": true,
+												"int_comparator": 0,
+												"int_operator": 0,
+												"is_conditional": false
+											}
 										},
 										"meta.visible": false
 									},
 									"id": "1759086317.976--9223372036854774770",
-									"jump_address_mode": 1.0,
-									"loop_address_mode": 0.0,
+									"jump_address_mode": 1,
+									"loop_address_mode": 0,
 									"loopback": false,
-									"loopback_target_line": 0.0,
-									"loopback_target_page": 0.0,
+									"loopback_target_line": 0,
+									"loopback_target_page": 0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0.0,
-									"target_page": 4.0,
+									"target_line": 0,
+									"target_page": 4,
 									"text_id_disabled": "1759086317.976--9223372036854774768",
 									"text_id_enabled": "1759086317.976--9223372036854774769"
 								},
 								{
-									"address": "0.0.4",
-									"behavior_after_first_selection": 0.0,
+									"address": "0.1.4",
+									"behavior_after_first_selection": 0,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
-										"behavior": 0.0,
+										"behavior": 0,
 										"behavior_key": "Show",
 										"facts": {
 											"fact_data_by_name": {
@@ -607,37 +690,44 @@
 										},
 										"meta.controls_collapsed": true,
 										"meta.visible": false,
-										"operand": 0.0,
+										"operand": 0,
 										"operand_args": [],
 										"operand_key": "AND"
 									},
 									"do_jump_page": true,
 									"facts": {
 										"fact_data_by_name": {
-
+											"picked a choice": {
+												"data_type": 0,
+												"fact_name": "picked a choice",
+												"fact_value": true,
+												"int_comparator": 0,
+												"int_operator": 0,
+												"is_conditional": false
+											}
 										},
 										"meta.visible": false
 									},
 									"id": "1759086318.110--9223372036854774767",
-									"jump_address_mode": 1.0,
-									"loop_address_mode": 0.0,
+									"jump_address_mode": 1,
+									"loop_address_mode": 0,
 									"loopback": false,
-									"loopback_target_line": 0.0,
-									"loopback_target_page": 0.0,
+									"loopback_target_line": 0,
+									"loopback_target_page": 0,
 									"meta.disabled_visible": false,
 									"meta.enabled_visible": true,
 									"meta.jump_page_before_auto_switch": true,
 									"meta.selector": {
 										"selected": false
 									},
-									"target_line": 0.0,
-									"target_page": 5.0,
+									"target_line": 0,
+									"target_page": 5,
 									"text_id_disabled": "1759086318.110--9223372036854774765",
 									"text_id_enabled": "1759086318.110--9223372036854774766"
 								}
 							],
 							"meta.do_jump_page": true,
-							"meta.editing_view": 0.0,
+							"meta.editing_view": 0,
 							"title_id": "1759055875.464--9223372036854775715"
 						},
 						"facts": {
@@ -648,22 +738,22 @@
 						},
 						"header": [],
 						"id": "1759055875.463--9223372036854775716",
-						"line_type": 1.0,
+						"line_type": 1,
 						"meta.conditionals_visible": false,
 						"meta.facts_visible": false,
-						"meta.indent_level": 0.0,
+						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0.0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					}
 				],
-				"meta.address_mode_next": 0.0,
+				"meta.address_mode_next": 0,
 				"meta.selected": false,
 				"next": 6.0,
-				"number": 0.0,
+				"number": 0,
 				"page_key": "root",
 				"skip": false,
 				"terminate": false
@@ -804,6 +894,52 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
+							"meta.text": "set_bgm(improv1)",
+							"meta.validation_status": "OK",
+							"name": "set_bgm",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759127634.873--9223372036854774728",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "2.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
 							"meta.text": "play_chapter_intro(the encounter)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
@@ -822,14 +958,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "2.1",
+						"address": "2.2",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -863,14 +999,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "2.2",
+						"address": "2.3",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -904,7 +1040,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2,
+						"meta.line_index": 3,
 						"meta.selector": {
 							"selected": false
 						},
@@ -950,7 +1086,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(the sun on her skin)",
+							"meta.text": "play_chapter_intro(the sun unto Her skin)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1096,6 +1232,52 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
+							"meta.text": "set_bgm(improv2)",
+							"meta.validation_status": "OK",
+							"name": "set_bgm",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759128098.789--9223372036854774656",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "4.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
 							"meta.text": "play_chapter_intro(the slip)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
@@ -1114,14 +1296,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "4.1",
+						"address": "4.2",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1155,7 +1337,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						},
@@ -1201,6 +1383,52 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
+							"meta.text": "set_bgm(improv3)",
+							"meta.validation_status": "OK",
+							"name": "set_bgm",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759128132.290--9223372036854774613",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "5.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
 							"meta.text": "play_chapter_intro(the ascent)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
@@ -1219,14 +1447,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "5.1",
+						"address": "5.2",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1260,7 +1488,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						},

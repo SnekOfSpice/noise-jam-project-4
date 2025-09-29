@@ -59,7 +59,7 @@ func play_sfx(_name:String):
 
 
 
-func set_bgm(_name:String, fade_in:float):
+func set_bgm(_name:String, fade_in:float=4.0):
 	Sound.play_bgm(_name, fade_in)
 	return false
 
