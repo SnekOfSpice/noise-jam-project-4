@@ -119,10 +119,14 @@ func set_background(_name:String, fade_time:=0.0):
 	return false
 
 
-func play_chapter_intro(chapter_title:String, background:="") -> bool:
+func play_chapter_intro(chapter_title:String, background:="", bgm := "") -> bool:
+	chapter_title = chapter_title.replace("\\c", ",")
+	chapter_title = chapter_title.replace("\\n", "\n")
 	%ChapterCover.run(chapter_title.to_upper())
 	if not background.is_empty():
 		set_background(background)
+	if not bgm.is_empty():
+		set_bgm(bgm)
 	return true
 
 

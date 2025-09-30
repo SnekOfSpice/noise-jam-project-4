@@ -211,7 +211,8 @@
 
 			},
 			"play_chapter_intro": {
-				"background": ""
+				"background": "",
+				"bgm": ""
 			},
 			"play_sfx": {
 
@@ -330,7 +331,7 @@
 			}
 		},
 		"head_defaults": [],
-		"id_counter": -9223372036854773601,
+		"id_counter": -9223372036854773568,
 		"import_modified_times_by_path": {
 
 		},
@@ -860,53 +861,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "set_bgm(improv4)",
-							"meta.validation_status": "OK",
-							"name": "set_bgm",
-							"reverse_name": ""
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"id": "1759141247.764--9223372036854774755",
-						"line_type": 2,
-						"meta.conditionals_visible": false,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 0,
-						"meta.selector": {
-							"selected": false
-						},
-						"skip": false
-					},
-					{
-						"address": "1.1",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-
-								},
-								"meta.visible": false
-							},
-							"meta.controls_collapsed": true,
-							"meta.visible": false,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"delay_after": 0.0,
-							"delay_before": 0.0,
-							"meta.has_reverse": false,
-							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(she who fell from heaven, ocean)",
+							"meta.text": "play_chapter_intro(she who fell from heaven, ocean, improv4)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -924,14 +879,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "1.2",
+						"address": "1.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -968,7 +923,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
@@ -1014,53 +969,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "set_bgm(improv1)",
-							"meta.validation_status": "OK",
-							"name": "set_bgm",
-							"reverse_name": ""
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"id": "1759127634.873--9223372036854774728",
-						"line_type": 2,
-						"meta.conditionals_visible": false,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 0,
-						"meta.selector": {
-							"selected": false
-						},
-						"skip": false
-					},
-					{
-						"address": "2.1",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-
-								},
-								"meta.visible": false
-							},
-							"meta.controls_collapsed": true,
-							"meta.visible": false,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"delay_after": 0.0,
-							"delay_before": 0.0,
-							"meta.has_reverse": false,
-							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(she who washed ashore, shore)",
+							"meta.text": "play_chapter_intro(she who washed ashore, shore, improv1)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1078,14 +987,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "2.2",
+						"address": "2.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1127,7 +1036,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
@@ -1173,53 +1082,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "set_bgm(improv5)",
-							"meta.validation_status": "OK",
-							"name": "set_bgm",
-							"reverse_name": ""
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"id": "1759141267.116--9223372036854774727",
-						"line_type": 2,
-						"meta.conditionals_visible": false,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 0,
-						"meta.selector": {
-							"selected": false
-						},
-						"skip": false
-					},
-					{
-						"address": "3.1",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-
-								},
-								"meta.visible": false
-							},
-							"meta.controls_collapsed": true,
-							"meta.visible": false,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"delay_after": 0.0,
-							"delay_before": 0.0,
-							"meta.has_reverse": false,
-							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(the sun unto Her skin, domestic)",
+							"meta.text": "play_chapter_intro(the sun unto Her skin, domestic, improv5)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1237,14 +1100,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "3.2",
+						"address": "3.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1292,7 +1155,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
@@ -1338,53 +1201,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "set_bgm(improv2)",
-							"meta.validation_status": "OK",
-							"name": "set_bgm",
-							"reverse_name": ""
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"id": "1759128098.789--9223372036854774656",
-						"line_type": 2,
-						"meta.conditionals_visible": false,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 0,
-						"meta.selector": {
-							"selected": false
-						},
-						"skip": false
-					},
-					{
-						"address": "4.1",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-
-								},
-								"meta.visible": false
-							},
-							"meta.controls_collapsed": true,
-							"meta.visible": false,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"delay_after": 0.0,
-							"delay_before": 0.0,
-							"meta.has_reverse": false,
-							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(the slip of a knife's edge, slip)",
+							"meta.text": "play_chapter_intro(the slip of a knife's edge, slip, her_wounds_wept)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1402,14 +1219,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "4.2",
+						"address": "4.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1464,7 +1281,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
@@ -1510,53 +1327,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "set_bgm(improv3)",
-							"meta.validation_status": "OK",
-							"name": "set_bgm",
-							"reverse_name": ""
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"id": "1759128132.290--9223372036854774613",
-						"line_type": 2,
-						"meta.conditionals_visible": false,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 0,
-						"meta.selector": {
-							"selected": false
-						},
-						"skip": false
-					},
-					{
-						"address": "5.1",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-
-								},
-								"meta.visible": false
-							},
-							"meta.controls_collapsed": true,
-							"meta.visible": false,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"delay_after": 0.0,
-							"delay_before": 0.0,
-							"meta.has_reverse": false,
-							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(the ascent, away)",
+							"meta.text": "play_chapter_intro(AN ASCENT TO EMPTINESS\\c\\nPAVED WITH SCARS, away, improv3)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1574,14 +1345,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "5.2",
+						"address": "5.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1623,7 +1394,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
@@ -1669,53 +1440,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "set_bgm(end_noise)",
-							"meta.validation_status": "OK",
-							"name": "set_bgm",
-							"reverse_name": ""
-						},
-						"facts": {
-							"fact_data_by_name": {
-
-							},
-							"meta.visible": false
-						},
-						"header": [],
-						"id": "1759166349.172--9223372036854773746",
-						"line_type": 2,
-						"meta.conditionals_visible": false,
-						"meta.facts_visible": false,
-						"meta.indent_level": 0,
-						"meta.is_head_editable": true,
-						"meta.line_index": 0,
-						"meta.selector": {
-							"selected": false
-						},
-						"skip": false
-					},
-					{
-						"address": "6.1",
-						"conditionals": {
-							"behavior": 0,
-							"behavior_key": "Show",
-							"facts": {
-								"fact_data_by_name": {
-
-								},
-								"meta.visible": false
-							},
-							"meta.controls_collapsed": true,
-							"meta.visible": false,
-							"operand": 0,
-							"operand_args": [],
-							"operand_key": "AND"
-						},
-						"content": {
-							"delay_after": 0.0,
-							"delay_before": 0.0,
-							"meta.has_reverse": false,
-							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(heaven is empty, ending)",
+							"meta.text": "play_chapter_intro(heaven is empty, ending, bark)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1733,14 +1458,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 0,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "6.2",
+						"address": "6.1",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1787,14 +1512,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 2,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "6.3",
+						"address": "6.2",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -1833,7 +1558,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 3,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						},
@@ -1865,7 +1590,7 @@
 			"1759086317.976--9223372036854774768": "",
 			"1759086317.976--9223372036854774769": "THE SLIP OF A KNIFE'S EDGE",
 			"1759086318.110--9223372036854774765": "",
-			"1759086318.110--9223372036854774766": "THE ASCENT",
+			"1759086318.110--9223372036854774766": "AN ASCENT TO EMPTINESS, PAVED WITH SCARS",
 			"1759086457.391--9223372036854774642": "[]>human: My flesh separates from flesh\n[]>human: From flesh\n[]>human: From fat\n[]>human: From muscle\n[]>human: From sinew\n[]>human: From bone\n[]>human: The whole of my being strewn out in recidivism\n[]>angel: It watched her.\n[]>angel: It watched her slip away.\n[]>angel: Fall down into her quagmire of past vice and self-abuse.\n[]>angel:<call:sync_human_text(The homotypal suillage of my being)> Her blood mirrored that of the ocean from whence this one emerged.\n[]>angel: Yet this one was birthed from yonder.\n[]>angel: This one was birthed from the blood.\n[]>angel:<call:sync_human_text(Rent upon the ground as Hers is the ocean)> Form swept up by and carried among the chromatic shimmer and pearlescent crimson and gilded waves.\n[]>angel:<call:sync_human_text(Begging for exsanguinatory release)> And.\n[]>angel:<call:sync_human_text(To devour.)> This is naught.\n[]>angel:<call:sync_human_text(To consume.)> She is naught.\n[]>angel:<call:sync_human_text(To gorge.)> She is distraught.\n[]>angel:<call:sync_human_text(A whole being reduced)> What gives this one life is the blood both outside and inside.\n[]>angel:<call:sync_human_text(Reduced to naught more)> Outside, the ocean.\n[]>angel:<call:sync_human_text(Naught more than pinocytosis)> Inside, her veins.\n[]>angel: This one wept for hours and days and all of Annette's vigor spilled forth and without abating she slashed and...\n[]>angel: And this one was lost.\n[]>angel:<call:sync_human_text(But She cried)> This one cried.\n[]>angel:<call:sync_human_text(Oh how She cried)> This one cried oh so dearly up to its home nevermore.\n[]>angel:<call:sync_human_text(How I begged to take it back)> And when this one's tears dried up.\n[]>angel: When this one's tears dried up...\n[]>angel:<call:sync_human_text(How I begged to take Her back)> There was nothing left.\n[]>angel:<call:sync_human_text(How I wish She'd look away)> Annette's arms had become a tallymark of this one's failure.\n[]>angel: Annette's arms had become a reminder of this one's weakness.\n[]>angel:<call:sync_human_text(Please look away)> The existential vice of reliance on the sun.\n[]>angel: The sun shored in each charge.\n[]>angel: Allegedly.\n[]>angel: Allege, oh you fool.\n[]>angel:<call:sync_human_text(Why won't You look away?)> This one was there and its purpose was dried blood on her bedroom floor and soaked in hastily made bindings and wrappings.\n[]>angel: Gauze and bandages and none of it applied properly.\n[]>angel:<call:sync_human_text(Why won't You look away?)> None of it could hide her agony.\n[]>angel: None of it could provide for it.\n[]>angel:<call:sync_human_text(Why won't You look away?)> Annette became nothing in front of this one's eyes.\n[]>angel: And in turn, it became nothing to Annette.\n[]>angel:<call:sync_human_text(You were always Something)> If it ever was.",
 			"1759086480.833--9223372036854774639": "[]>angel: This one climbed up to the roof of world.\n[]>human: I climbed atop the nearest bridge\n[]>angel: ...Roof of.\n[]>angel:<call:sync_human_text(Gazing out into the ocean red)> Roof of...\n[]>angel: No matter.\n[]>angel:<call:sync_human_text(I closed my eyes and wondered how it would feel to learn to swim)> It felt its wings dissolve into the wind currents expanded over the ocean below.\n[]>angel:<call:sync_human_text(My cuts still biting me beneath my haphazard dressing)> Its spawning touching grounds.\n[]>angel:<call:sync_human_text(How I longed to carve them deeper. To match how unworthy I am in Her eyes.)> The hole in its chest grew larger and it was recalled and deemed unworthy and...\n[]>angel:<call:sync_human_text(Begging to catch one last glimpse of her above me.)> The charge flitted away.\n[]>angel:<call:sync_human_text(As she flies away.)> Away.",
 			"1759087938.609--9223372036854774502": "[]>angel: The sun had just come up\n[]>angel: The sun had just come up and this one was curled up besides Annette\n[]>angel: Gentle breezes wafting in and carrying with them the seraphic hemoglobin from which this one emerged just the same mere weeks ago.\n[]>human: The petrichor smelled more of iron these days\n[]>angel: Her face was peaceful, then.\n[]>human: The world is a gentle place with Her\n[]>human: She and I, intertwined in a daze of love, of creation, of compassion\n[]>human: Her Radiance guiding me\n[]>human: Her hand touching me\n[]>human: Oh how good Her hands feel...\n[]>human: Oh how easy to lose myself against Her\n[]>angel:<call:sync_human_text(The happiest day of my life)> The brightest day since it fell\n[]>angel:<call:sync_human_text(She looks so content by my side)> The brightest day and it was so content with that state of affairs\n[]>angel:<call:sync_human_text(Eventually I brought myself to my feet)> Annette rested next to it\n[]>angel:<call:sync_human_text(I'm not sure what possessed me)> The air was excitable and light\n[]>angel:<call:sync_human_text(To show Her the things I held most dear)> The air was a perfect vessel of noise\n[]>angel: Harsh ambient drone and all the violence Annette coveted\n[]>angel:<call:sync_human_text(It was as if I lost my self to Her)> Forms coalescing and intertwining\n[]>human: She became me, and I, Her\n[]>human: My body moved in rhythm with Hers\n[]>angel: In all configurations of audio and emotion and body\n[]>angel: This one drew so much from that\n[]>angel: A sea of noise and a rivulet of affection emenating from Annette's lips\n[]>angel:<call:sync_human_text(Leaning into her touch)> This one feasted on her touch\n[]>angel:<call:sync_human_text(Leaning into her words)> This one feasted on her affections\n[]>human: Leaning into Her\n[]>angel:<call:sync_human_text(It has been so long since I felt warmth such as this...)> The warmth that was so foreign to that heavencast form this one took on\n[]>angel:<call:sync_human_text(If I have have before)> The warmth did not compare to the ambience of the stagnant blood this one emerged from\n[]>angel: No\n[]>angel:<call:sync_human_text(One I long to keep feeling)> Nay\n[]>angel:<call:sync_human_text(forevermore)> Nevermore\n[]>angel: This was a warmth that felt weighty\n[]>angel: A weight to an angel is akin to sin to seraphim\n[]>angel: This one enjoyed the weight",
