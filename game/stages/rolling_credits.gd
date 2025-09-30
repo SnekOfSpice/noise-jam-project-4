@@ -12,7 +12,7 @@ func start():
 	var label : RichTextLabel = find_child("Label")
 	
 	for text in [
-		"Angelarium",
+		"Limacina Open Season",
 		"Created by Stella and Snek",
 		"Created for NOISE JAM"]:
 		label.text = "[shake rate=10.0 level=5 connected=1]%s[/shake]" % text

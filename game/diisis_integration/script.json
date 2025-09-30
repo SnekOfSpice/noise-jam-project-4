@@ -448,7 +448,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro([blood glistening as morning dew], defualt)",
+							"meta.text": "play_chapter_intro([blood glistening as morning dew], default)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
