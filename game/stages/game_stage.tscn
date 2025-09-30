@@ -104,6 +104,7 @@ text_container = NodePath("Camera2D/VNUICanvasLayer/VNUIRoot/VNUI/TextContainers
 choice_title_label = NodePath("Camera2D/VNUICanvasLayer/VNUIRoot/ChoicePanel/VBoxContainer/ChoiceLabel")
 choice_container = NodePath("Camera2D/VNUICanvasLayer/VNUIRoot/ChoicePanel")
 choice_list = NodePath("Camera2D/VNUICanvasLayer/VNUIRoot/ChoicePanel/VBoxContainer/ChoiceList")
+body_label_prefix = "[bgcolor=#000000]"
 chatlog_fuse_lines = false
 input_prompt_delay = 1.29
 input_prompt_lerp_weight = 0.233
@@ -377,7 +378,6 @@ grow_vertical = 2
 
 [node name="PixelateRect" type="ColorRect" parent="LineReader/Camera2D/PixelateLayer"]
 unique_name_in_owner = true
-visible = false
 material = SubResource("ShaderMaterial_aqeli")
 anchors_preset = 15
 anchor_right = 1.0
@@ -390,7 +390,6 @@ mouse_filter = 2
 
 [node name="PSXRect" type="ColorRect" parent="LineReader/Camera2D/PSXLayer"]
 unique_name_in_owner = true
-visible = false
 material = SubResource("ShaderMaterial_j1uqk")
 anchors_preset = 15
 anchor_right = 1.0

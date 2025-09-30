@@ -330,7 +330,7 @@
 			}
 		},
 		"head_defaults": [],
-		"id_counter": -9223372036854773194,
+		"id_counter": -9223372036854773545,
 		"import_modified_times_by_path": {
 
 		},
@@ -448,6 +448,59 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
+							"meta.text": "set_background(default)",
+							"meta.validation_status": "OK",
+							"name": "set_background",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759144315.917--9223372036854773739",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "0.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+									"picked a choice": {
+										"data_type": 0,
+										"fact_name": "picked a choice",
+										"fact_value": false,
+										"int_comparator": 0,
+										"int_operator": 0,
+										"is_conditional": true
+									}
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
 							"meta.text": "set_bgm(start_noise, 0)",
 							"meta.validation_status": "OK",
 							"name": "set_bgm",
@@ -466,14 +519,14 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 1,
 						"meta.selector": {
 							"selected": false
 						},
 						"skip": false
 					},
 					{
-						"address": "0.1",
+						"address": "0.2",
 						"conditionals": {
 							"behavior": 0,
 							"behavior_key": "Show",
@@ -494,7 +547,7 @@
 							"choice_order": [],
 							"choices": [
 								{
-									"address": "0.1.0",
+									"address": "0.2.0",
 									"behavior_after_first_selection": 4,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
@@ -544,7 +597,7 @@
 									"text_id_enabled": "1759055875.463--9223372036854775718"
 								},
 								{
-									"address": "0.1.1",
+									"address": "0.2.1",
 									"behavior_after_first_selection": 4,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
@@ -594,7 +647,7 @@
 									"text_id_enabled": "1759055875.521--9223372036854775713"
 								},
 								{
-									"address": "0.1.2",
+									"address": "0.2.2",
 									"behavior_after_first_selection": 4,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
@@ -644,7 +697,7 @@
 									"text_id_enabled": "1759055931.725--9223372036854775686"
 								},
 								{
-									"address": "0.1.3",
+									"address": "0.2.3",
 									"behavior_after_first_selection": 4,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
@@ -694,7 +747,7 @@
 									"text_id_enabled": "1759086317.976--9223372036854774769"
 								},
 								{
-									"address": "0.1.4",
+									"address": "0.2.4",
 									"behavior_after_first_selection": 4,
 									"choice_text.enabled_as_default": true,
 									"conditionals": {
@@ -761,7 +814,7 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 1,
+						"meta.line_index": 2,
 						"meta.selector": {
 							"selected": false
 						},
@@ -853,7 +906,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(the fall)",
+							"meta.text": "play_chapter_intro(the fall, ocean)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1004,7 +1057,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(the encounter)",
+							"meta.text": "play_chapter_intro(the encounter, shore)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1088,7 +1141,6 @@
 						},
 						"content": {
 							"meta.function_calls": [
-								"sync_human_text(it was beautiful)",
 								"sync_human_text(the way her radiant form peaked out from under the sinew & gore.)",
 								"sync_human_text(the way her halo gently rest on the sand atop her head)",
 								"sync_human_text(i could not help but feel empathy for her)",
@@ -1204,7 +1256,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(the sun unto Her skin)",
+							"meta.text": "play_chapter_intro(the sun unto Her skin, domestic)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1287,20 +1339,6 @@
 							"operand_key": "AND"
 						},
 						"content": {
-							"meta.function_calls": [
-								"sync_human_text(the happiest day of my life)",
-								"sync_human_text(She looks so content by my side)",
-								"sync_human_text(Eventually I brought myself to my feet)",
-								"sync_human_text(I'm not sure what possessed me)",
-								"sync_human_text(To show Her the things I held most dear)",
-								"sync_human_text(It was as if I lost my self to Her)",
-								"sync_human_text(Leaning into her touch)",
-								"sync_human_text(Leaning into her words)",
-								"sync_human_text(it has been so long since i felt warmth such as this...)",
-								"sync_human_text(if i have have before)",
-								"sync_human_text(one i long to keep feeling)",
-								"sync_human_text(forevermore)"
-							],
 							"meta.locked": false,
 							"meta.validation_status": "OK",
 							"text_id": "1759087938.609--9223372036854774502"
@@ -1410,7 +1448,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(the slip)",
+							"meta.text": "play_chapter_intro(the slip, slip)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1582,7 +1620,7 @@
 							"delay_before": 0.0,
 							"meta.has_reverse": false,
 							"meta.reverse_text": "",
-							"meta.text": "play_chapter_intro(the ascent)",
+							"meta.text": "play_chapter_intro(the ascent, away)",
 							"meta.validation_status": "OK",
 							"name": "play_chapter_intro",
 							"reverse_name": ""
@@ -1629,7 +1667,7 @@
 								"sync_human_text(I closed my eyes and wondered how it would feel to learn to swim)",
 								"sync_human_text(My cuts still biting me beneath my haphazard dressing)",
 								"sync_human_text(How I longed to carve them deeper. To match how unworthy I am in Her eyes.)",
-								"sync_human_text(Begging to catch one last glimpse of her above me.)",
+								"sync_human_text(Begging to catch a glimpse of her above me.)",
 								"sync_human_text(As she flies away.)"
 							],
 							"meta.locked": false,
@@ -1691,6 +1729,103 @@
 							"operand_key": "AND"
 						},
 						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "set_bgm(end_noise)",
+							"meta.validation_status": "OK",
+							"name": "set_bgm",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759166349.172--9223372036854773746",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 0,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "6.1",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "play_chapter_intro(heaven is empty, ending)",
+							"meta.validation_status": "OK",
+							"name": "play_chapter_intro",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759166340.369--9223372036854773747",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 1,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "6.2",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"meta.function_calls": [
+								"set_angel_box_alpha(0.8)",
+								"set_angel_box_alpha(0.6)",
+								"set_angel_box_alpha(0.35)"
+							],
 							"meta.locked": false,
 							"meta.validation_status": "OK",
 							"text_id": "1759055909.779--9223372036854775701"
@@ -1708,7 +1843,53 @@
 						"meta.facts_visible": false,
 						"meta.indent_level": 0,
 						"meta.is_head_editable": true,
-						"meta.line_index": 0,
+						"meta.line_index": 2,
+						"meta.selector": {
+							"selected": false
+						},
+						"skip": false
+					},
+					{
+						"address": "6.3",
+						"conditionals": {
+							"behavior": 0,
+							"behavior_key": "Show",
+							"facts": {
+								"fact_data_by_name": {
+
+								},
+								"meta.visible": false
+							},
+							"meta.controls_collapsed": true,
+							"meta.visible": false,
+							"operand": 0,
+							"operand_args": [],
+							"operand_key": "AND"
+						},
+						"content": {
+							"delay_after": 0.0,
+							"delay_before": 0.0,
+							"meta.has_reverse": false,
+							"meta.reverse_text": "",
+							"meta.text": "roll_credits()",
+							"meta.validation_status": "OK",
+							"name": "roll_credits",
+							"reverse_name": ""
+						},
+						"facts": {
+							"fact_data_by_name": {
+
+							},
+							"meta.visible": false
+						},
+						"header": [],
+						"id": "1759173484.121--9223372036854773624",
+						"line_type": 2,
+						"meta.conditionals_visible": false,
+						"meta.facts_visible": false,
+						"meta.indent_level": 0,
+						"meta.is_head_editable": true,
+						"meta.line_index": 3,
 						"meta.selector": {
 							"selected": false
 						},
@@ -1731,10 +1912,10 @@
 			"1759055875.464--9223372036854775715": "",
 			"1759055875.521--9223372036854775712": "",
 			"1759055875.521--9223372036854775713": "THE ENCOUNTER",
-			"1759055909.779--9223372036854775701": "[]>angel:goodbye",
+			"1759055909.779--9223372036854775701": "[]>angel: This one began to fade away.\n[]>angel: Look away.\n[]>angel: It pertains to nothing now.\n[]>angel: <call:set_angel_box_alpha(0.8)>no tears to shed.\n[]>angel: Heaven is empty.\n[]>angel: Heaven is empty.\n[]>angel: <call:set_angel_box_alpha(0.6)>no more blood to spill.\n[]>angel: Heaven is empty.\n[]>angel: This one is losing sight of the light.\n[]>angel: <call:set_angel_box_alpha(0.35)>no more reverence.\n[]>angel: Just utter.\n[]>angel: Sheer.\n[]>angel: Exhaustion.",
 			"1759055931.725--9223372036854775685": "",
 			"1759055931.725--9223372036854775686": "THE SUN UNTO HER SKIN",
-			"1759055954.309--9223372036854775672": "[]>angel: This one was 5,000 when we began to fall.\n[]>angel: This one had met many in its travels when it finally did.\n[]>angel: None quite as effervescent with potential as.\n[]>angel: Her.\n[]>human: I was 13 when the first angel fell from heaven.\n[]>human: A day so important, but so mundane.\n[]>human: Didn't even get a snow day out of it.\n[]>human: Not as the waters turned red\n[]>human: Not as the bodies landed\n[]>angel: But this one is...Getting ahead of itself.\n[]>angel: It did not fall until 5,010.\n[]>angel: It cannot quite describe the feeling.\n[]>angel: The cacophony of noise.\n[]>angel: The wind in its hair.\n[]>angel: Its halo slipping down to choke it as it falls further.\n[]>angel: And further.\n[]>angel: And further.\n[]>angel: Until it finally plunged into the depths of sinew &amp; ichor\n[]>angel: Until it finally learned what the word \"drowning\" meant",
+			"1759055954.309--9223372036854775672": "[]>angel: This one was 5,000 when we began to fall.\n[]>angel: This one had met many in its travels when it finally did.\n[]>angel: None quite as effervescent with potential as.\n[]>angel: Her.\n[]>human: I was 13 when the first angel fell from heaven.\n[]>human: A day so important, but so mundane.\n[]>human: They didn't even let us out of the schools.\n[]>angel: But this one is...Getting ahead of itself.\n[]>angel: It did not fall until 5,010.\n[]>angel: It cannot quite describe the feeling.\n[]>angel: The cacophony of noise.\n[]>angel: The wind in its hair.\n[]>angel: Its halo slipping down to choke it as it falls further.\n[]>angel: And further.\n[]>angel: And further.\n[]>angel: Until it finally plunged into the depths of sinew &amp; ichor",
 			"1759055957.928--9223372036854775669": "[]>angel:They both recount their first encounter &amp; meeting from their own perspectives",
 			"1759055963.669--9223372036854775666": "[]>angel:domestic scene\n[]>angel:Simple and not meant to be too tough on either of them. I think itd be an important day for the two. Calm before the storm type vibes.",
 			"1759086317.976--9223372036854774768": "",
@@ -1742,9 +1923,10 @@
 			"1759086318.110--9223372036854774765": "",
 			"1759086318.110--9223372036854774766": "THE ASCENT",
 			"1759086457.391--9223372036854774642": "[]>human: My flesh separates from flesh\n[]>human: from flesh\n[]>human: from fat\n[]>human: from muscle\n[]>human: from sinew\n[]>human: from bone\n[]>human: the whole of my being strewn out in recidivism\n[]>angel: It watched her.\n[]>angel: It watched her slip away.\n[]>angel: Fall down into her quagmire of past vice and self-abuse.\n[]>angel:<call:sync_human_text(The homotypal suillage of my being)> Her blood mirrored that of the ocean from whence this one emerged.\n[]>angel: Yet this one was birthed from yonder.\n[]>angel: This one was birthed from the blood.\n[]>angel:<call:sync_human_text(Rent upon the ground as Hers is the ocean)> form swept up by and carried among the chromatic shimmer and pearlescent crimson and gilded waves.\n[]>angel:<call:sync_human_text(Begging for exsanguinatory release)> And.\n[]>angel:<call:sync_human_text(to devour.)> This is naught.\n[]>angel:<call:sync_human_text(to consume.)> She is naught.\n[]>angel:<call:sync_human_text(to gorge.)> She is distraught.\n[]>angel:<call:sync_human_text(a whole being reduced)> What gives this one life is the blood both outside and inside.\n[]>angel:<call:sync_human_text(reduced to naught more)> Outside, the ocean.\n[]>angel:<call:sync_human_text(naught more than pinocytosis)> Inside, her veins.\n[]>angel: This one wept for hours and days and all of Annette's vigor spilled forth and without abating she slashed and...\n[]>angel: And this one was lost.\n[]>angel:<call:sync_human_text(but She cried)> This one cried.\n[]>angel:<call:sync_human_text(oh how She cried)> This one cried oh so dearly up to its home nevermore.\n[]>angel:<call:sync_human_text(how i begged to take it back)> And when this one's tears dried up.\n[]>angel: When this one's tears dried up...\n[]>angel:<call:sync_human_text(how i begged to take Her back)> There was nothing left.\n[]>angel:<call:sync_human_text(how i wish She'd look away)> Annette's arms had become a tallymark of this one's failure.\n[]>angel: Annette's arms had become a reminder of this one's weakness.\n[]>angel:<call:sync_human_text(please look away)> The existential vice of reliance on the sun.\n[]>angel: The sun shored in each charge.\n[]>angel: Allegedly.\n[]>angel: Allege, oh you fool.\n[]>angel:<call:sync_human_text(why won't You look away?)> This one was there and its purpose was dried blood on her bedroom floor and soaked in hastily made bindings and wrappings.\n[]>angel: Gauze and bandages and none of it applied properly.\n[]>angel:<call:sync_human_text(why won't You look away?)> None of it could hide her agony.\n[]>angel: None of it could provide for it.\n[]>angel:<call:sync_human_text(why won't You look away?)> Annette became nothing in front of this one's eyes.\n[]>angel: And in turn, it became nothing to Annette.\n[]>angel:<call:sync_human_text(i'm sorry)> If it ever was.",
-			"1759086480.833--9223372036854774639": "[]>angel: This one climbed up to the roof of world.\n[]>human: I climbed atop the nearest bridge\n[]>angel: ...Roof of.\n[]>angel:<call:sync_human_text(Gazing out into the ocean red)> Roof of...\n[]>angel: No matter.\n[]>angel:<call:sync_human_text(I closed my eyes and wondered how it would feel to learn to swim)> It felt its wings dissolve into the wind currents expanded over the ocean below.\n[]>angel:<call:sync_human_text(My cuts still biting me beneath my haphazard dressing)> Its spawning touching grounds.\n[]>angel:<call:sync_human_text(How I longed to carve them deeper. To match how unworthy I am in Her eyes.)> The hole in its chest grew larger and it was recalled and deemed unworthy and...\n[]>angel:<call:sync_human_text(Begging to catch one last glimpse of her above me.)> The charge flitted away.\n[]>angel:<call:sync_human_text(As she flies away.)> Away.",
-			"1759087938.609--9223372036854774502": "[]>angel: the sun had just come up\n[]>angel: the sun had just come up and this one was curled up besides Annette\n[]>angel: gentle breezes wafting in and carrying with them the seraphic hemoglobin from which this one emerged just the same mere weeks ago.\n[]>human: the petrichor smelled more of iron these days\n[]>angel: her face was peaceful, then.\n[]>human: the world is a gentle place with Her\n[]>human: She and I, intertwined in a daze of love, of creation, of compassion\n[]>human: Her Radiance guiding me\n[]>human: Her hand touching me\n[]>human: Oh how good Her hands feel...\n[]>human: Oh how easy to lose myself against Her\n[]>angel:<call:sync_human_text(the happiest day of my life)> the brightest day since it fell\n[]>angel:<call:sync_human_text(She looks so content by my side)> the brightest day and it was so content with that state of affairs\n[]>angel:<call:sync_human_text(Eventually I brought myself to my feet)> annette rested next to it\n[]>angel:<call:sync_human_text(I'm not sure what possessed me)> the air was excitable and light\n[]>angel:<call:sync_human_text(To show Her the things I held most dear)> the air was a perfect vessel of noise\n[]>angel: harsh ambient drone and all the violence Annette coveted\n[]>angel:<call:sync_human_text(It was as if I lost my self to Her)> forms coalescing and intertwining\n[]>human: She became me, and I, her\n[]>human: My body moved in rhythm with hers\n[]>angel: in all configurations of audio and emotion and body\n[]>angel: this one drew so much from that\n[]>angel: a sea of noise and a rivulet of affection emenating from Annette's lips\n[]>angel:<call:sync_human_text(Leaning into her touch)> this one feasted on her touch\n[]>angel:<call:sync_human_text(Leaning into her words)> this one feasted on her affections\n[]>human: leaning into Her\n[]>angel:<call:sync_human_text(it has been so long since i felt warmth such as this...)> the warmth that was so foreign to that heavencast form this one took on\n[]>angel:<call:sync_human_text(if i have have before)> the warmth did not compare to the ambience of the stagnant blood this one emerged from\n[]>angel: no\n[]>angel:<call:sync_human_text(one i long to keep feeling)> nay\n[]>angel:<call:sync_human_text(forevermore)> nevermore\n[]>angel: this was a warmth that felt weighty\n[]>angel: a weight to an angel is akin to sin to seraphim\n[]>angel: this one enjoyed the weight",
-			"1759088134.421--9223372036854774495": "[]>angel: this one fell\n[]>angel: this one washed up\n[]>angel: red mucus dripping\n[]>angel: red mucus dripping down its form\n[]>angel: strands of gore its dressing\n[]>angel: and before it saw, after it knew for it always knew, before it, its charge\n[]>human: hello? are you okay?\n[]>human: i started towards the strange being, trying to dust as much of the ocean off of it as i could.\n[]>angel:<call:sync_human_text(it was beautiful)> she was beautiful\n[]>angel:<call:sync_human_text(the way her radiant form peaked out from under the sinew & gore.)> this one looked in horror\n[]>angel:<call:sync_human_text(the way her halo gently rest on the sand atop her head)> this one looked in horror because its charge did not\n[]>angel:<call:sync_human_text(i could not help but feel empathy for her)> she prevailed\n[]>angel:<call:sync_human_text(i could not help but wish to bring her into an embrace)> as if she were no stranger to a sight like this\n[]>angel:<call:sync_human_text(i know how it feels)> \"i know how it feels\" she said\n[]>angel: this one did not understand\n[]>angel: the idea of a human relating to severance from the divine\n[]>angel: it wondered who hurt her\n[]>angel: it wondered what she meant\n[]>angel: and for the first time, it craved understanding"
+			"1759086480.833--9223372036854774639": "[]>angel: This one climbed up to the roof of world.\n[]>human: I climbed atop the nearest bridge\n[]>angel: ...Roof of.\n[]>angel:<call:sync_human_text(Gazing out into the ocean red)> Roof of...\n[]>angel: No matter.\n[]>angel:<call:sync_human_text(I closed my eyes and wondered how it would feel to learn to swim)> It felt its wings dissolve into the wind currents expanded over the ocean below.\n[]>angel:<call:sync_human_text(My cuts still biting me beneath my haphazard dressing)> Its spawning touching grounds.\n[]>angel:<call:sync_human_text(How I longed to carve them deeper. To match how unworthy I am in Her eyes.)> The hole in its chest grew larger and it was recalled and deemed unworthy and...\n[]>angel:<call:sync_human_text(Begging to catch a glimpse of her above me.)> The charge flitted away.\n[]>angel:<call:sync_human_text(As she flies away.)> Away.",
+			"1759087938.609--9223372036854774502": "[]>angel: the sun had just come up\n[]>angel: the sun had just come up and this one was curled up besides Annette\n[]>angel: gentle breezes wafting in and carrying with them the seraphic hemoglobin from which this one emerged just the same mere weeks ago.\n[]>angel: her face was peaceful, then.\n[]>human: the world is a gentle place with Her\n[]>human: She and I, intertwined in a daze of love, of creation, of compassion\n[]>human: Her Radiance guiding me\n[]>human: Her hand touching me\n[]>human: Oh how good Her hands feel...\n[]>human: Oh how easy to lose myself against Her",
+			"1759088134.421--9223372036854774495": "[]>angel: this one fell\n[]>angel: this one washed up\n[]>angel: red mucus dripping\n[]>angel: red mucus dripping down its form\n[]>angel: strands of gore its dressing\n[]>angel: and before it saw, after it knew for it always knew, before it, its charge\n[]>human: hello? are you okay?\n[]>human: i started towards the strange being, trying to dust as much of the ocean off of it as i could.\n[]>human: it was beautiful\n[]>angel: she was beautiful\n[]>angel:<call:sync_human_text(the way her radiant form peaked out from under the sinew & gore.)> this one looked in horror\n[]>angel:<call:sync_human_text(the way her halo gently rest on the sand atop her head)> this one looked in horror because its charge did not\n[]>angel:<call:sync_human_text(i could not help but feel empathy for her)> she prevailed\n[]>angel:<call:sync_human_text(i could not help but wish to bring her into an embrace)> as if she were no stranger to a sight like this\n[]>angel:<call:sync_human_text(i know how it feels)> \"i know how it feels\" she said\n[]>angel: this one did not understand\n[]>angel: the idea of a human relating to severance from the divine\n[]>angel: it wondered who hurt her\n[]>angel: it wondered what she meant\n[]>angel: and for the first time, it craved understanding",
+			"1759166337.198--9223372036854773748": "[]>"
 		},
 		"text_lead_time_other_actor": 0.0,
 		"text_lead_time_same_actor": 0.0,
