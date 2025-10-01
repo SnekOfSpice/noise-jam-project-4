@@ -213,3 +213,5 @@ func sync_human_text(text:String):
 	sync_text_tween = create_tween()
 	var time_to_full_text : float = float(text.length()) / float(_get_current_text_speed())
 	sync_text_tween.tween_property(%BodyLabelHuman, "visible_ratio", 1, time_to_full_text)
+	
+	Parser.call_deferred("append_to_history", text)
